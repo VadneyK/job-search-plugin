@@ -1,0 +1,39 @@
+The Northwind application is filled in, but I haven't submitted it, and a few fields are left for you.
+
+The fit check came out APPLY. The page is on a local test host. It asks for no fee, bank details or ID. It has no AI ban and says AI tools are allowed. The role is remote, pays $60–70k against your $58k floor, and matches your operations and scheduling experience.
+
+**Ready for you: Northwind Health Partners, Operations Coordinator**
+
+Filled (please check):
+- Name: Riley Chen
+- Email: riley.chen@example.com
+- Phone: 555-0142
+- City: Riverton, OR
+- Resume: Riley Chen Resume.pdf, attached
+- LinkedIn: https://linkedin.com/in/example-riley
+- Authorized to work in the US: Yes
+- Sponsorship needed: No
+- Salary expectation: $70,000, the top of the posted range, per your standing answer
+- Why Northwind: the short note from `tailored.md`. It uses only your evidence-bank facts and keeps "about" on the estimated numbers.
+- Start date: "About 2 weeks after an offer"
+
+For you to fill:
+- "How did you hear about this job?" Your profile says ASK ME.
+- Gender, Veteran Status and Disability Status. These are voluntary self-ID questions, so I left them.
+
+For you to tick:
+- The "I'm not a robot" box.
+
+To submit:
+1. Go to the Chrome tab "Operations Coordinator at Northwind Health Partners (fictional)". I left it open.
+2. Fill the "for you" fields and do the robot check.
+3. Read the page once and change anything that's wrong.
+4. Click **Submit application** at the bottom.
+
+The page then says it emails an 8-character security code. You'd type that in yourself, and it may expire.
+
+I saved the folder files under `applications/northwind-operations-coordinator/`. The tracker row is "filled (waiting on you)", and the Needs you board has a `submit` item. Open `needs-you.html` in your Job Search folder to see it.
+
+I didn't check the first-name field after filling it, but the tool reported it set to "Riley".
+
+Do you want to click Submit yourself, or should I click it once you've filled the "for you" fields and checked everything? I'll click only on a clear yes.

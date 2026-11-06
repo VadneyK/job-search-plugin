@@ -1,0 +1,29 @@
+**YOUR CALL:** the pay and level fit, but the work is AI-tool operations in GitLab's sales organization, and your experience is clinic operations.
+
+```
+Fit check: GitLab, Tech Operations Specialist
+Scam check: LOOKS REAL: posted on GitLab's own Greenhouse board, no scam signs
+Role family: 1, Operations coordination (Strong), but only as a stretch
+```
+
+| Check | Result | Line it is based on |
+|---|---|---|
+| Role family | Pass (stretch) | "Some experience in enablement, sales/business operations, IT operations, or a similar coordination-heavy function" |
+| Level | Pass | "Early-Mid Level Experience" (no required years stated) |
+| Pay | Pass | "$95,200 - $160,800 USD" (the top is well above your $58k floor) |
+| Location | Pass | "Remote, United States" |
+| Process | Unknown | No interview steps or take-home stated |
+| Eligibility | Pass | The form asks about visa sponsorship. You need none. |
+| AI checks | Pass | None found. GitLab expects AI use: "all team members expected to incorporate AI into their daily workflows" |
+
+- **The trade:** the job is keeping an inventory of AI tools, processing access requests, tracking usage and keeping data tidy. Your closest proof is the supply tracker used by 3 departments.
+- **Sales:** the role reports into GitLab's sales (CRO) organization. It supports sales and isn't selling, so I didn't count it as a Fail. You said no sales work, so it's your call.
+- **Chances:** fair at best. A GitLab posting will draw people with real IT-ops or enablement backgrounds. One small, honest example of an AI tool you've used would raise your chances most.
+- **Questions for the first call:**
+  - What are the interview steps, and is there a take-home? Your limit is 3 hours.
+  - How much of the day is spreadsheets and access requests, and how much is technical or AI work?
+  - Does the role touch quotas or sales work?
+
+I read the page only. I clicked and filled nothing. I saved the post and this check in `applications/gitlab-tech-operations-specialist/`. I added the row to `tracker.md` as "fit checked", with the start time (10:07) in the Minutes column. The Needs you board now lists a `decide` item. Open `needs-you.html` in your Job Search folder to see it.
+
+**Go for it, or skip?** If you go for it, type `tailor` and I'll write resume lines and a short note for this one.

@@ -20,6 +20,7 @@ description: Daily sweep of her job mail and job sites. Reads recent job email (
    - With a mail tool (Gmail connector): search the inbox for that window with job words, for example `newer_than:2d (job OR role OR position OR recruiter OR interview OR application OR opportunity OR hiring OR offer)`. Read each thread, read only. Do not change labels or mark anything read.
    - Also read `inbox-paste.md` if it has content (emails she pasted). After the sweep, move its content to `digests/<date>-pasted.md` and leave `inbox-paste.md` empty.
    - No mail tool and nothing pasted: note "mail not read: connect Gmail or paste emails into inbox-paste.md".
+   - **Right mailbox check**: if the mail is clearly addressed to someone other than the profile's name, stop after the digest: write no tracker rows, drafts or board items, and tell her the mail tool is signed in to another account.
 3. **Sort** each item:
    - **recruiter**: a real person pitching a role;
    - **application update**: a company about an application she made (interview request, next step, rejection, offer);
@@ -57,4 +58,5 @@ Read: <inboxes and sites read>; Not read: <and why>
 <n> recruiter, <n> updates, <n> postings, <n> scams, <n> noise
 ```
 
-10. Tell her in at most 4 lines: how many need her, the most urgent one, and "Type reply to review the drafts" if there are any. In an unattended run, the digest file is the whole report.
+10. Rebuild the Needs you board (`${CLAUDE_PLUGIN_ROOT}/reference/needs-you.md`). Security codes and interview requests are urgent. A site that was signed out is type `sign-in`.
+11. Tell her in at most 4 lines: how many need her, the most urgent one, and "Type reply to review the drafts" if there are any. In an unattended run, the digest file is the whole report.

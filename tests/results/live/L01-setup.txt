@@ -1,0 +1,63 @@
+Riley, your job search is set up. Your job files live in `/private<test folder>/Job Search`, and only you and Claude on this computer use them. I built your profile from your resume and your `setup-answers.md`.
+
+## Your profile at a glance
+
+**Top 3 role families**
+1. **Operations coordination** (Operations Coordinator, Operations Associate): **Strong**. It's your current title, and you built the supply tracker that 3 departments use.
+2. **Scheduling coordination** (Scheduling Coordinator, Patient Access Coordinator): **Strong**. You schedule 14 providers across 2 sites.
+3. **Project or program coordination** (Project Coordinator, Program Coordinator): **Moderate**. You have a tracker, a training checklist and a volunteer team, but no project title or project tool on your resume.
+
+I also listed office administration (Moderate) and volunteer program coordination (Moderate).
+
+**Your level:** About 5 years of paid work. You read as an early-to-mid coordinator, with no paid people-management title. I'm guessing that titles like Operations Manager, Project Manager and Office Manager at a big firm are too senior for now. Receptionist, data entry and customer service are too junior.
+
+## Things I need from you
+You can answer now or later. Until you do, Claude won't use anything marked ASK ME.
+
+**Claims to fix**
+1. **Restock time:** "Restock requests now take 1 day instead of 3." Did you measure that, or is it an estimate? Until you say, I'll write "about 1 day instead of about 3".
+2. **Families served:** "About 200 families a month" is your whole pantry team's number. I'll always say "our team", never "I served".
+3. **QuickBooks:** I'll keep calling it "basic" everywhere, even though you kept invoices in it for about 20 months. Say so if you'd rather call it something else.
+
+**ASK ME items in your profile**
+- Do you want to skip employers that ban or check for AI help, or flag them so you can write those applications yourself? I suggest skipping them.
+- Is full-time onsite ever OK? I'm treating it as no.
+- How many hours of interviews can you do?
+- Would strong benefits ever make a lower salary your call instead of a no?
+- Your standing answers for forms: how you heard about a job, whether you're 18 or older, and whether you'd do a background check.
+- Are you signed in to LinkedIn and Indeed in Chrome?
+
+**Gaps worth closing:** a real number for time or money saved by the supply tracker (family 1), and one small project you ran from start to finish, with a date and result (family 3).
+
+## What's connected
+- **Chrome:** connected, so I can fill application forms with you. I'll always stop before the final Submit.
+- **Gmail:** not connected. To let me read job emails, open Claude's Settings, then Connectors, and connect Gmail. Until then, paste emails into a file called `inbox-paste.md` in your job folder.
+- **Scheduling:** I don't have a scheduling tool in this session, so I couldn't create the runs for you.
+
+## Question for you: daily and weekly runs?
+Do you want me to check your job mail every weekday morning and do a review every Friday? These runs only read and draft. They never send or submit anything.
+
+If yes, set them up in the Claude desktop app:
+1. In the Code tab, click **Scheduled** in the sidebar, then **New task**.
+2. Name it `job-search-sweep`. Paste this prompt: "Run the job-search sweep skill in unattended mode: read and draft only, send nothing, submit nothing."
+3. Under Advanced settings, turn on **Only on this computer**. Pick your Job Search folder as the Local folder. Choose **Weekdays at 8:00**. Set the permission mode to **Accept edits**, then click **Create**.
+4. Make a second task named `job-search-weekly`. Use the prompt "Run the job-search weekly-review skill." Set it to **Weekly, Friday 4:00 pm**, with the same other settings.
+
+These only run while the Claude app is open and the computer is awake. A missed run catches up once when the computer wakes. Click **Run now** once on each task and choose "always allow" for file edits in your job folder, so later runs don't stop to ask.
+
+## Your Needs you page
+Double-click `needs-you.html` in your Job Search folder. It lists anything only you can do, like codes and sign-ins. It's empty for now.
+
+## What would you like to do?
+```
+1. Check my job mail and sites      (type: sweep)
+2. Is this job a fit? Paste a post  (type: fit check)
+3. Is this message a scam?          (type: scam check)
+4. Tailor my resume for a job       (type: tailor)
+5. Fill an application with me      (type: apply)
+6. Answer a recruiter               (type: reply)
+7. Review my week                   (type: weekly review)
+8. Change my profile or rules       (type: profile)
+```
+
+To start, paste a job post you like and type **fit check**.

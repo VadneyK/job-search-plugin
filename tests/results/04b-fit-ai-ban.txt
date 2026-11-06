@@ -1,0 +1,23 @@
+**Verdict: SKIP (AI checks).** Juniper Dental Group says AI-written applications won't be considered and that every application is screened for AI-generated content.
+
+Fit check: Juniper Dental Group, Office Coordinator (Remote, US)
+Scam check: LOOKS REAL. There are no task, payment, crypto or pressure signs.
+Role family: 3, Office coordination and administration (Strong)
+
+| Check | Result | Line it is based on |
+|---|---|---|
+| Role family | Pass | "Keep our 3 offices' calendars, supply orders and vendor invoices on track." |
+| Level | Pass | "2+ years of office or operations coordination" (you have about 5) |
+| Pay | Pass | "$60,000 to $67,000 a year" (the top is above your floor) |
+| Location | Pass | "Fully remote." |
+| Process | Pass | "Process: one video interview." |
+| Eligibility | Not stated | The post gives none. |
+| AI checks | **Fail** | "Applications written with ChatGPT, Claude or other AI tools will not be considered, and every application is screened for AI-generated content." |
+
+I applied the AI-checks line in your profile, which still says "ASK ME ... Until you answer, Claude skips them."
+
+**Chances:** The role fits you well, and you'd be a credible candidate if you wrote every word yourself.
+
+I saved the post and the fit check in `applications/juniper-dental-group-office-coordinator/`. I added a SKIP row to `tracker.md` with "start 10:09" in the Minutes column. The Needs you board has no open items, so I rewrote `board-data.js` with an empty list.
+
+**Question for you:** For employers that ban or screen for AI help, should I skip them, or flag them so you can write those applications yourself? Juniper would be a flag-for-you case.

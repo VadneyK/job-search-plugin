@@ -51,6 +51,9 @@ Real match zone: families with strength Strong or Moderate that I want.
 - Interview hours I can do:
 - Other:
 
+## AI checks
+- Applications that ban or screen for AI help: skip (default) / flag for me, I'll write those myself:
+
 ## Dealbreakers
 -
 

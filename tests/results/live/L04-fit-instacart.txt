@@ -1,0 +1,7 @@
+I can't give a verdict yet. The page loaded, but the job description didn't.
+
+The Instacart page shows the title, "Lifecycle Marketing Coordinator, CRM", plus its boilerplate. The body sits in an embedded application frame that the page reader can't see. I got the same result on the Greenhouse address. My direct fetch of Greenhouse's job data was declined, so I couldn't read it that way either. I haven't scored anything from the title alone. The scam check also needs the post's text, and so does every row of the fit test: level, pay, location, process, eligibility and the AI-checks line.
+
+I haven't saved a folder or tracker row for this one, because there's no verdict to record.
+
+Could you open the link, copy the whole job description (responsibilities, requirements, pay range, location, and any AI or application notes), and paste it here? I'll run the full fit check as soon as I have it.

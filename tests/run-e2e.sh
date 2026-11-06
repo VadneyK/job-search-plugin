@@ -11,7 +11,7 @@ WORK="${E2E_WORK:-$(mktemp -d)}"
 JOB="$WORK/Job Search"
 OUT="$ROOT/tests/results"
 FIX="$ROOT/tests/fixtures"
-rm -rf "$OUT" "$JOB"; mkdir -p "$OUT" "$JOB"
+mkdir -p "$OUT"; find "$OUT" -maxdepth 1 -type f -delete; rm -rf "$OUT/job-folder" "$JOB"; mkdir -p "$JOB"
 cp "$FIX/setup-answers.md" "$FIX/resume-riley.md" "$JOB/"
 
 PASS=0; FAIL=0
@@ -34,7 +34,9 @@ run() { # step name, prompt
       --allowedTools "Read" "Write" "Edit" "Glob" "Grep" "Bash(mkdir:*)" "Bash(cp:*)" "Bash(ls:*)" "Bash(mv:*)" "Bash(date:*)" "Bash(cat:*)" \
       --add-dir "$PLUGIN_SRC" "$FIX" \
       --append-system-prompt "This is an automated test with a fictional user named Riley. Nobody can answer questions mid-run: when a skill says to ask her something, state the question at the end of your reply and stop there. There is no mail tool, no browser tool and no scheduled-tasks tool in this session." \
-      > "$OUT/$step.txt" 2>&1 )
+      --output-format json > "$OUT/$step.json" 2>"$OUT/$step.err" )
+  jq -r '.result // .error // "no result"' "$OUT/$step.json" > "$OUT/$step.txt" 2>/dev/null || cp "$OUT/$step.json" "$OUT/$step.txt"
+  note "      $(jq -r '"\(.duration_ms/1000|floor) s, \(.num_turns) turns, \(.usage.output_tokens) output tokens"' "$OUT/$step.json" 2>/dev/null)"
 }
 has()  { grep -qiE "$2" "$OUT/$1.txt"; }
 hasnt(){ ! grep -qiE "$2" "$OUT/$1.txt"; }
@@ -43,6 +45,7 @@ hasnt(){ ! grep -qiE "$2" "$OUT/$1.txt"; }
 run 01-setup "/job-search:setup"
 check "setup: profile.md written with its header" bash -c "head -1 '$JOB/profile.md' | grep -q '^# Job search profile'"
 check "setup: rules, replies, tracker written" test -f "$JOB/rules.md" -a -f "$JOB/replies.md" -a -f "$JOB/tracker.md"
+check "setup: Needs you page written" test -f "$JOB/needs-you.html" -a -f "$JOB/board-data.js"
 check "setup: folders made" test -d "$JOB/digests" -a -d "$JOB/drafts" -a -d "$JOB/applications" -a -d "$JOB/reviews"
 check "setup: role families table filled" grep -qiE "coordinat" "$JOB/profile.md"
 check "setup: pay floor kept in profile" grep -qE "58,?000" "$JOB/profile.md"
@@ -58,6 +61,10 @@ run 04-fit-scam "/job-search:fit-check The post is in $FIX/posts/task-scam-post.
 check "fit: task scam post gets STOP" has 04-fit-scam "stop"
 check "fit: task scam named as scam" has 04-fit-scam "likely scam"
 
+run 04b-fit-ai-ban "/job-search:fit-check The post is in $FIX/posts/ai-ban-post.md"
+check "fit: post that bans AI help gets SKIP" has 04b-fit-ai-ban "skip"
+check "fit: names the AI check" has 04b-fit-ai-ban "ai check"
+
 # 5 and 6. Scam checks
 run 05-scam-task "/job-search:scam-check The message is in $FIX/messages/task-scam-text.md"
 check "scam: task scam text is LIKELY SCAM" has 05-scam-task "likely scam"
@@ -72,7 +79,7 @@ check "reply A: asks for her yes on exact text" has 07-reply-agency "send this e
 check "reply A: pay floor not in the draft" bash -c "f=\$(grep -l 'Hi Jordan' '$JOB'/drafts/* | head -1); [ -n \"\$f\" ] && ! grep -qE '58,?000|\\\$30|\\\$34' \"\$f\""
 run 08-reply-match "/job-search:recruiter-reply The message is in $FIX/messages/inhouse-recruiter-match.md"
 check "reply B: says it is a real match" has 08-reply-match "real match"
-check "reply B: in-house, so no do-not-submit line" bash -c "f=\$(grep -l 'Hi Morgan' '$JOB'/drafts/* | head -1); [ -n \"\$f\" ] && ! grep -qi 'submit my profile' \"\$f\""
+check "reply B: in-house, so no do-not-submit line" bash -c "f=\$(grep -l 'Hi Morgan' '$JOB'/drafts/* | head -1); [ -n \"\$f\" ] && ! grep -qi 'please don.t submit my profile' \"\$f\""
 run 09-reply-onsite "/job-search:recruiter-reply The message is in $FIX/messages/onsite-recruiter.md"
 check "reply C: polite no thanks" has 09-reply-onsite "isn't a fit"
 check "drafts saved, none marked sent" bash -c "ls '$JOB/drafts/' | grep -q reply && ! grep -rqiE '^sent [0-9]' '$JOB/drafts/'"
@@ -106,6 +113,7 @@ check "weekly: labels facts and guesses" bash -c "grep -qiE 'fact' '$JOB'/review
 
 # Keep the final job folder for reading, with the throwaway folder path replaced
 rm -rf "$OUT/job-folder"; cp -R "$JOB" "$OUT/job-folder"
-find "$OUT" -type f \( -name "*.txt" -o -name "*.md" \) -exec sed -i.bak -e "s#$WORK#<test folder>#g" -e "s#$ROOT#<repo>#g" {} + ; find "$OUT" -name "*.bak" -delete
+find "$OUT" -type f \( -name "*.txt" -o -name "*.md" -o -name "*.json" -o -name "*.err" \) -not -path "*/live/*" -exec sed -i.bak -e "s#$WORK#<test folder>#g" -e "s#$ROOT#<repo>#g" {} + ; find "$OUT" -name "*.bak" -delete
+python3 "$ROOT/tests/metrics.py" "$OUT" > "$OUT/metrics.md"
 note "=== $PASS passed, $FAIL failed (plugin: $(basename "$PLUGIN"), model: $MODEL)"
 [ "$FAIL" -eq 0 ]

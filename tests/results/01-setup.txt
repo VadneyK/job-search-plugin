@@ -1,48 +1,49 @@
-Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+Your job folder is set up, using the answers you prepared in `setup-answers.md`. I only had to ask about the items marked ASK ME below.
+
 Your job files will live in `/private<test folder>/Job Search`. Only you and Claude on this computer use them.
 
-I read your prepared answers (`setup-answers.md`) and your resume, so I didn't need to ask you the setup questions. Your profile, rules, reply templates and tracker are written, plus empty `digests`, `drafts`, `applications` and `reviews` folders.
+**Your top role families**
+1. **Operations coordination: Strong.** This is your current Operations Coordinator job, plus the supply tracker you built for 3 departments.
+2. **Scheduling and clinic administration: Strong.** You schedule 14 providers across 2 sites. You haven't said you want this one, so I marked your interest as a guess.
+3. **Office coordination and administration: Strong.** You have the clinic job and the Lumen Print Shop job.
 
-## Your summary
+I also listed three Moderate families:
+- Project coordination, which you want. It's Moderate because no project title or project tool is on your resume.
+- Office management for a small office, which you said "maybe" to. No budget, vendor or payroll work is on your resume.
+- Nonprofit or volunteer coordination.
 
-**Top role families**
-1. **Operations coordination**: Strong. You're a Operations Coordinator at Harborview Clinic (Mar 2023 to now) and built the supply tracker.
-2. **Scheduling coordination**: Strong. You schedule 14 providers across 2 sites and cut double-bookings from about 30 to about 5 a month.
-3. **Office management**: Moderate. You have no paid role managing people or a budget yet.
+**Your level (guess):** About 5 years 5 months of paid work, so an early-career coordinator. Operations Manager, Director and Senior Project Manager are too senior right now. Receptionist and data entry are too junior (please confirm).
 
-Project coordination is also Moderate, because the evidence is real but has no project title behind it. I listed two more families, volunteer or community program coordination and administrative support. Both are Moderate, and the second is a step back from where you are.
+**What I need from you (ASK ME)**
+1. Do you want to skip employers that ban or check for AI help in applications (my suggestion), or have me flag them so you can write those yourself? Until you answer, I skip them.
+2. Which scheduling system do you use at the clinic?
+3. Which year did you build the supply tracker?
+4. Do you have the monthly report with the exact double-booking numbers? Until then I always say "about 30 to about 5".
+5. Is there a PDF or Word copy of your resume? Most applications need one, and I only have the text file.
+6. What should I say for these form answers: how you heard about the job, whether you're 18 or older, and whether you're willing to do a background check?
 
-**Your level:** about 5 years of paid office and operations work. You read as early-career to mid-level. Operations Manager, Practice Manager and Program Manager are too senior for now. Receptionist and Data Entry Clerk are too junior.
+**Claims to fix:** None of your sources disagree. Two things to keep consistent: the pantry's "about 200 families a month" belongs to the team, so I'll always say "our team". The double-bookings numbers are an estimate.
 
-**Questions I need you to answer, now or later (they're marked ASK ME in `profile.md`)**
-1. "Restock requests now take 1 day instead of 3" has no source. Is it measured or an estimate? If it's an estimate, I'll write "About".
-2. Is 30 hours a week fine for contract work, while full-time means 40?
-3. Which scheduling system do you use at the clinic? I'll only name it if you tell me.
-4. Would a lower full-time salary ever be your call instead of a no, for example with strong benefits?
-5. What interview hours can you do?
-6. What should the standing form answers be for "How did you hear about us", "Are you 18 or older" and "Willing to do a background check"?
+**Gaps worth closing**
+- For operations coordination: one more number on the supply tracker or another process you own.
+- For scheduling: how many appointments a week the 14 providers carry.
+- For project coordination: a short write-up of the supply tracker as a project, with a goal, who was involved and the result.
 
-I'll always say "our team serves about 200 families" for the food pantry, never "I serve".
+**Your tools**
+- **Job mail:** Not connected. To let me read job emails, open Claude's Settings, then Connectors, and connect Gmail. Until then you can paste emails into `inbox-paste.md` in your job folder.
+- **Filling forms in the browser:** Not connected. Install the Claude in Chrome extension from the Chrome Web Store, sign in with your Claude account, and keep Chrome open. Until then I'll give you the answers to copy in.
+- **Daily and weekly runs:** I can't create these from here, so you'd set them up in the Claude desktop app. Here are the steps:
+  1. Open the Code tab and click Scheduled in the sidebar, then New task.
+  2. Name it `job-search-sweep` and paste this prompt: "Run the job-search sweep skill in unattended mode: read and draft only, send nothing, submit nothing."
+  3. Turn on Only on this computer (under Advanced settings), pick your Job Search folder as the Local folder, choose Weekdays at 8:00, and set the permission mode to Accept edits. Then click Create.
+  4. Make a second task named `job-search-weekly` with the prompt "Run the job-search weekly-review skill." Set it to Weekly, Friday 4:00 pm, with the same settings.
 
-## Your tools
+  These run only while the Claude app is open and the computer is awake. A missed run catches up once when the computer wakes. Click Run now once on each task and choose "always allow" for file edits in your job folder, so later runs don't stop on a question.
 
-I checked this session, and none of the three tools is connected:
-- **Job mail:** I can't read Gmail yet. To connect it, open Claude's Settings, then Connectors, and connect Gmail. Until then, paste emails into a file called `inbox-paste.md` in your job folder.
-- **Filling forms in the browser:** this needs the Claude in Chrome extension. Install it from the Chrome Web Store, sign in with your Claude account, and keep Chrome open. Until then I'll give you answers to copy in.
-- **Scheduled runs:** I can't create these from here. The steps are below.
+Your Needs you page is in your Job Search folder: double-click `needs-you.html`. It lists anything only you can do, like codes and sign-ins.
 
-## Daily and weekly runs
-
-Do you want me to check your job mail every weekday morning and do a review every Friday? These runs only read and draft. They never send or submit anything.
-
-If yes, set them up in the Claude desktop app. In the Code tab, click **Scheduled** in the sidebar, then **New task**. Name it, paste the prompt, turn on **Only on this computer** (under Advanced settings), and pick your job folder as the Local folder. Set the permission mode to **Accept edits**, then click **Create**.
-- `job-search-sweep`, Weekdays at 8:00. Prompt: "Run the job-search sweep skill in unattended mode: read and draft only, send nothing, submit nothing."
-- `job-search-weekly`, Weekly on Friday at 4:00 pm. Prompt: "Run the job-search weekly-review skill."
-
-They run only while the Claude app is open and the computer is awake. A missed run catches up once when the computer wakes. Click **Run now** once on each task and choose "always allow" for file edits in your job folder, so later runs don't stop on a question.
-
-## What would you like to do?
 ```
+What would you like to do?
 1. Check my job mail and sites      (type: sweep)
 2. Is this job a fit? Paste a post  (type: fit check)
 3. Is this message a scam?          (type: scam check)
@@ -52,4 +53,9 @@ They run only while the Claude app is open and the computer is awake. A missed r
 7. Review my week                   (type: weekly review)
 8. Change my profile or rules       (type: profile)
 ```
-A good first step: paste a job post you like and type **fit check**.
+
+Paste a job post you like and type **fit check** to start.
+
+Two questions for you now:
+1. Do you want those two scheduled runs (job mail every weekday morning, a review every Friday)? They only read and draft. They never send or submit anything.
+2. Can you answer the ASK ME items above, now or later?

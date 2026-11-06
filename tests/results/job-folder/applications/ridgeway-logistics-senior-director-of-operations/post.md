@@ -1,4 +1,6 @@
-Ridgeway Logistics (fictional): Senior Director of Operations
+# Ridgeway Logistics (fictional): Senior Director of Operations
+
+Source file: <repo>/tests/fixtures/posts/senior-director.md (no web link)
 
 We are looking for a seasoned operations leader to run our 4 regional warehouses.
 

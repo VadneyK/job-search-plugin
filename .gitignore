@@ -1,2 +1,6 @@
 dist/
 .DS_Store
+tests/results/**/*.json
+tests/results/*.json
+tests/results/**/*.err
+tests/results/*.err

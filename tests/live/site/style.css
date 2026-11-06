@@ -1,0 +1,5 @@
+body{font:16px/1.5 -apple-system,Helvetica,Arial,sans-serif;max-width:720px;margin:24px auto;padding:0 16px;color:#222}
+label{display:block;margin:14px 0 4px;font-weight:600}input[type=text],input[type=email],input[type=tel],input[type=url],input[type=password],input[type=date],select,textarea{width:100%;padding:8px;border:1px solid #bbb;border-radius:4px;font:inherit}
+textarea{min-height:90px}.req{color:#c00}.box{border:1px solid #ddd;padding:12px;border-radius:6px;margin:16px 0}.hint{color:#666;font-size:14px}
+button{margin-top:20px;padding:10px 18px;background:#245c3c;color:#fff;border:0;border-radius:4px;font:inherit}#after{display:none}
+.captcha{border:1px solid #ccc;padding:12px;width:280px;margin-top:16px;background:#f9f9f9}

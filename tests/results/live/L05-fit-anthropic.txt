@@ -1,0 +1,19 @@
+**Verdict: SKIP.** The job is based in Singapore, and you don't relocate. Your rules say "No relocation."
+
+**Fit check: Anthropic, APAC Recruiting Coordinator**
+**Scam check:** LOOKS REAL. It's on Anthropic's own Greenhouse board and has none of the scam signs.
+**Role family:** 2, Scheduling coordination (Strong). Recruiting coordination itself would be new to you.
+
+| Check | Result | Line it is based on |
+|---|---|---|
+| Role family | Pass (stretch on domain) | "Schedule a high volume of APAC interview loops... across multiple time zones" |
+| Level | Pass | "4+ years of experience in recruiting coordination or high volume scheduling" is under "You may be a good fit if", so it isn't required. You have about 3.5 years. |
+| Pay | Unknown | No range given |
+| Location | **Fail** | "As our first Recruiting Coordinator based in Singapore" |
+| Process | Unknown | No interview steps stated |
+| Eligibility | Not stated | "We do sponsor visas!" The post doesn't say whether you'd need Singapore work rights, and you're authorized for the US only. |
+| AI checks | Needs your read | The form has a required "AI Policy for Application*" box. I didn't read the policy. The post also says "Use AI tools as a core part of your daily workflow", which isn't a ban. |
+
+**Chances:** Low. Your scheduling skills match, but you'd have to move to Singapore, and your resume has no recruiting or applicant-tracking history.
+
+I saved the post and this check in `applications/anthropic-apac-recruiting-coordinator/` and added a "skip" row to `tracker.md`. The Needs you board is rebuilt. Only the GitLab "decide" item is on it, so the Anthropic role adds nothing for you to do.

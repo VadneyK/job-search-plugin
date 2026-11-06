@@ -1,9 +1,9 @@
-Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
-The sweep is done and the digest is at `digests/2026-11-06.md`. Four items need Riley.
+The sweep is done, and the digest is `digests/2026-11-06.md`. It covered only the five pasted emails. I couldn't read Gmail, LinkedIn or Indeed because no mail tool or Chrome is connected.
 
-- **Most urgent:** Blue Pine Dental sent an interview request for Tuesday at 10 am or Wednesday at 2 pm Pacific. I accepted neither time. The reply draft has a placeholder for the time she picks. Blue Pine wasn't in her tracker, so she should also confirm she applied.
-- **Other drafts waiting for her yes or no:** Summit Staffing (reply A, questions first), Northwind Health Partners (reply B) and Ridgeway Logistics (reply C, a polite no).
-- **Scam caught:** the "Remote Data Entry" email asked for her home address and bank name and offered a check for equipment. I didn't answer it. The tracker row is marked scam.
-- **Not read:** Gmail, LinkedIn and Indeed, because no mail or browser tool was connected. I swept only her pasted emails and archived them to `digests/2026-11-06-pasted.md`; `inbox-paste.md` is now empty.
+- **Needs you (4):**
+  - **Most urgent:** Blue Pine Dental Group invited you to an Office Coordinator interview, Tuesday 10 am or Wednesday 2 pm Pacific. I drafted a reply but did not pick a time for you. Your tracker has no record of applying there, so confirm you did.
+  - **Replies waiting for your yes or no:** Summit Staffing, Northwind (Morgan Lee, with your resume to attach) and Ridgeway (no-thanks).
+- **Scam caught:** the "Remote Data Entry" email from a Gmail address. It offers a check to buy equipment and asks for your bank name and address. I did not answer it.
+- **Counts:** 2 recruiter, 1 application update, 1 scam, 1 noise (the Indeed alert).
 
-Nothing was sent or submitted. Riley can type "reply" to review the drafts.
+I emptied `inbox-paste.md` and moved its contents to `digests/2026-11-06-pasted.md`. The tracker and the Needs you board are updated. Nothing was sent or submitted.

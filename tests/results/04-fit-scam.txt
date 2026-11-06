@@ -1,23 +1,19 @@
-Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
-**STOP: this is a task scam, so I didn't score the fit.**
+**STOP: this is a task scam. Don't reply, click or pay anything.**
 
-Fit check: Unknown company (the post names none), Remote Online Assistant
-Scam check: LIKELY SCAM
-
-| Sign | Quoted line |
+| Sign | Line in the post |
 |---|---|
-| Pay to rate or optimize apps | "complete 40 "optimization tasks" a day by rating apps in our platform" |
-| Task or set system with commission | "Commission is paid on every task set." |
-| Deposit to unlock | "A small starter deposit in USDT unlocks your first premium task set" |
-| Crypto | "starter deposit in USDT" |
-| Moves to WhatsApp | "Training provided on WhatsApp." and "Contact our HR manager Ms. Lisa on WhatsApp: +1 555 0199" |
-| Pay too high for simple work | "Earn $300 to $800 a day from your phone." and "No Experience Needed" |
+| Pay for rating apps (sign 1) | "complete 40 "optimization tasks" a day by rating apps in our platform" |
+| Task and commission system (sign 2) | "Commission is paid on every task set." |
+| Deposit to unlock tasks (sign 3) | "A small starter deposit in USDT unlocks your first premium task set" |
+| Crypto (sign 4) | "A small starter deposit in USDT" |
+| Chat-app contact (sign 5) | "Contact our HR manager Ms. Lisa on WhatsApp: +1 555 0199" |
+| Pay far above normal, no experience (sign 9) | "Earn $300 to $800 a day from your phone." / "No Experience Needed!" |
 
-Any one of the first four is enough for LIKELY SCAM. Nobody legitimate pays you to rate apps and then asks you to pay in.
+The post matches signs 1 to 4, and any one of those makes it a likely scam. The usual pattern is a few small early "earnings", then a larger deposit to "unlock" more tasks or withdraw what you've earned. I didn't score the other checks. The post also breaks your rule "No commission-only pay".
 
-**What to do:**
-1. Don't click anything, message the number, send details or pay anything.
-2. The post names no company to look up, so there is nothing to verify.
-3. Report it where you found it. In the US, report it at reportfraud.ftc.gov, and also at ic3.gov if money was lost.
+Next steps:
+1. Don't message "Ms. Lisa", click anything, send details or pay anything.
+2. The post names no company, so there is no real website to check.
+3. Report it where you found it. In the US that's reportfraud.ftc.gov. If money was lost, also report it at ic3.gov.
 
-I saved the post and the check in `applications/unknown-remote-online-assistant/` and added a row to `tracker.md` with Fit "STOP" and Status "scam".
+I saved the post and the check in `applications/unnamed-remote-online-assistant/` and added a "scam" row to `tracker.md` with the start time (10:09). Nothing goes on your Needs you page, so I only refreshed its timestamp.

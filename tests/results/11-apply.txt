@@ -1,41 +1,29 @@
-Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
-I wrote a fill sheet for the Northwind Operations Coordinator application. I didn't fill or submit the form, because this session has no browser tool.
+I've written a fill sheet for the Northwind form, but nothing is typed into it. I have no browser tool in this session. I haven't clicked Submit.
 
-**Checks:**
-- **Fit check:** the earlier one says APPLY.
-- **Scam signs:** the page asks for no fee, bank details or deposit, and its address is the one in the post.
-- **Warning:** the form asks for a Social Security number and date of birth before any offer. Real employers usually collect those after an offer, so I left both empty.
-
-**Ready for you: Northwind Health Partners, Operations Coordinator**
-
-Filled (please check):
-- First name: Riley
-- Last name: Chen
-- Email: riley.chen@example.com
-- Phone: 555-0142
-- City: Riverton, OR
-- LinkedIn profile: linkedin.com/in/example-riley
-- Authorized to work in the US without sponsorship: Yes
-- Desired salary: $70,000. That's the top of the post's range, per your standing answer.
-- Why Northwind?: the short note from `tailored.md`, unchanged.
-- Years of scheduling experience: About 3 years 8 months. I worked this out from your Mar 2023 start at Harborview, so please check it.
-
-For you to fill:
-- **Resume:** attach `resume-riley.md`. It's a `.md` file, so export it to PDF or Word first if the form needs one.
-- **Create a password:** I never type passwords.
-- **Social Security number and date of birth:** leaving them empty is fine.
-- **Gender and Veteran status:** these are yours to answer.
-- **CAPTCHA:** I don't solve these.
-
-For you to tick:
-- "I certify that the information above is true and complete."
-
+```
+Ready for you: Northwind Health Partners, Operations Coordinator
+Filled (please check): none typed. Values to copy are in the fill sheet:
+  First name Riley, last name Chen, email riley.chen@example.com, phone 555-0142,
+  city Riverton, OR, LinkedIn linkedin.com/in/example-riley,
+  authorized to work in the US without sponsorship: Yes,
+  desired salary $70,000 (the top of the post's range),
+  "Why Northwind?" = the short note from tailored.md, unchanged,
+  years of scheduling = about 3 and a half (Mar 2023 to present)
+For you to fill: password, resume file, Social Security number, date of birth,
+  gender, veteran status
+For you to tick: "I certify that the information above is true and complete."
+  and the CAPTCHA
 To submit:
-1. Go to the page at careers.northwind-health.example.com.
-2. Fill the "for you" fields and tick the box above.
-3. Read the whole page once and change anything that is wrong.
-4. Click **Submit application** at the bottom of the form.
+1. Go to the Northwind application page (careers.northwind-health.example.com).
+2. Fill the "for you" fields and tick the boxes above.
+3. Read every page once. Change anything that is wrong.
+4. Click "Submit application" at the bottom of the Operations Coordinator: Application page.
+```
 
-I saved the values to copy in `applications/northwind-health-partners-operations-coordinator/fill-sheet.md` and the summary in `applied.md`. The tracker row now says "filled (waiting on you)", owner me.
+- **Page check:** The scam and AI checks found no problems. The form asks for your Social Security number and date of birth before any offer. That is a warning, not a stop. Real employers usually collect those after an offer, so you can leave them empty.
+- **Resume:** Your profile lists only the text file, `resume-riley.md`. You'll need a PDF or Word copy to attach.
+- **Years of scheduling:** I put "about 3 and a half" from your clinic start date. Change it if you count other work.
+- **Open questions from the tailor step:** I still need the exact double-booking numbers, the year you built the supply tracker, and the name of the clinic's scheduling system. None of them blocks the form.
+- **Files:** The fill sheet is `applications/northwind-health-partners-operations-coordinator/fill-sheet.md`, with the summary saved beside it as `applied.md`. The tracker row stays "tailored", with you as owner and "fill" as the need, at 7 minutes since 10:07. Your Needs you page now shows a "fill" item for this application. Open `needs-you.html` in your Job Search folder to see it.
 
-Do you want to click Submit yourself, or should I click it once you've filled your fields and checked everything? I can't click it in this session anyway.
+Question for you: once you've filled the form and checked it, do you want to click Submit yourself, or should I click it after you tell me it's ready? I can't click anything in this session. I'll only ever click on a clear yes for this application.

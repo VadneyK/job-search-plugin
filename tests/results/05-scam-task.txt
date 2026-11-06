@@ -1,25 +1,20 @@
-Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
-**Verdict: LIKELY SCAM.** This is a task scam, the kind that pays you to "boost ratings" and later asks you to pay in.
-
-**What it is:** A text from +1 555 0187, out of nowhere. You never applied to TalentBridge Recruitment, and nothing in your tracker matches it. I didn't open the WhatsApp link.
+**What it is:** a text from an unknown number (+1 555 0187), and it looks like a scam. It's about a job you never applied to. Nothing in your tracker matches "TalentBridge Recruitment." I didn't open the WhatsApp link.
 
 **Signs present:**
-- **Sign 1, pay for boosting ratings:** "help merchants boost their product ratings"
-- **Sign 5, first contact by text, then a move to WhatsApp:** "Please add our manager on WhatsApp to start: wa.me/15550187"
+- **Sign 1, pay to rate or boost things:** "help merchants boost their product ratings… earn $200 to $500 daily."
+- **Sign 5, out-of-nowhere contact that moves to WhatsApp:** it came by text, and it says "Please add our manager on WhatsApp to start: wa.me/15550187."
+- **Sign 9, pay far above normal for simple work:** "60 to 90 minutes a day, earn $200 to $500 daily."
 - **Sign 8, no interview:** "No interview needed."
-- **Sign 9, pay far above normal for simple work:** "60 to 90 minutes a day, earn $200 to $500 daily"
-- **Sign 13, a link to open before anything is confirmed:** "wa.me/15550187"
+- **Sign 13, a link to open before anything is confirmed:** the wa.me link.
 - **Sign 15, a job you never applied for:** "Your resume was recommended to us."
 
-**The two strongest reasons:**
-1. "help merchants boost their product ratings" is the standard task-scam setup. You see small early "earnings", then you're asked for a deposit, often in crypto, to unlock more tasks or withdraw.
-2. "$200 to $500 daily… No interview needed", sent by text with a push to WhatsApp, is a pitch from someone you never contacted.
+**Verdict: LIKELY SCAM.** The strongest reasons:
+1. "help merchants boost their product ratings… earn $200 to $500 daily" is the classic task scam. It pays you to rate things, shows small early earnings, then asks for a deposit to "unlock" more tasks or withdraw your "earnings."
+2. The contact is unsolicited, there's "No interview needed," and it pushes you onto WhatsApp.
 
 **What to do:**
-1. Don't reply, not even to say no. Don't click the link or add anyone on WhatsApp.
-2. If you want to check, search for TalentBridge Recruitment yourself and contact them through the website you find. Don't use anything from this text.
-3. Report and block it. Forward the text to 7726 (SPAM) and report it at reportfraud.ftc.gov. Block the number.
+1. Don't click the link, reply (even to say no), or send any details or money.
+2. If you want to check TalentBridge, search for its real website yourself and contact it there. Don't use anything from this text.
+3. Report the text. Forward it to 7726 (SPAM), or report it at reportfraud.ftc.gov. Then block the number.
 
-I added a row to your tracker with status "scam" and next step "Do not reply. Report it", so nobody answers it later.
-
-Did you click the link, reply or send anything? If you did, tell me. We'd then change any password you typed, and you'd call your bank if bank details went out.
+I added a row to your tracker with Status "scam" so this is never answered later. Your Needs you page is unchanged, because scam rows don't go on it.

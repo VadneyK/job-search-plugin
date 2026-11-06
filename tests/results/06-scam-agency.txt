@@ -1,26 +1,26 @@
-Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
-**Kind of message:** A recruiter reaching out about a role. This is cold outreach. You haven't applied to Summit Staffing, and it isn't in your tracker.
+**What it is:** a real-looking recruiter message about a role she didn't apply for. Summit Staffing is not in `tracker.md`, and the message doesn't claim she was "approved". It says only that they "came across your profile".
 
-**Signs present:**
-- **Pressure to act today (sign 12):** "Let me know today if you can, as the client is moving fast."
+**Message details:**
+- **From:** Jordan Patel, jordan.patel@summitstaffing.example.com
+- **Via:** email
+- **Subject:** Operations Coordinator opportunity, healthcare client
+- **Links or attachments:** none
 
-**Signs not present:**
-- No links or attachments.
-- No money, crypto, bank details or ID requests.
-- No move to text, WhatsApp or Telegram.
-- No pay claims.
-- It doesn't say you're "already approved."
-- The sender's email domain (summitstaffing…) matches the company name in the signature.
-- The role matches your Operations Coordination family, and it's full-time.
+**Signs present (1):**
+- **Sign 12, pressure to act today:** "Let me know today if you can, as the client is moving fast."
 
-**Verdict: CHECK FIRST**
+**Checked and not present:** no money, crypto, or task or rating pay. No chat-app move. No free email address: the sender domain matches the staffing firm's name. No links, no request for ID, SSN or address. No pay promise. The sender's name and title are consistent.
 
-1. The only sign is "let me know today." That is common for pushy but real agency recruiters, so it isn't a scam on that alone.
-2. It is unverified cold outreach. It gives no client name, pay or location, and it doesn't say how they found you.
+## Verdict: CHECK FIRST
 
-**Next steps:**
-1. Don't click anything or send personal details yet.
-2. Search for Summit Staffing yourself and find its real website. Check that Jordan Patel is listed there, or contact the agency through the site.
-3. If it checks out, type **reply**. Draft questions first: client name, pay range, location or remote, and contract or permanent. A real recruiter will answer those without pressure.
+1. **Only one sign.** The "today" line is common with real but pushy agency recruiters, so it isn't a scam on its own.
+2. **Nothing risky is asked of her.** It asks only for a quick call, with no money, details or links. The role also matches her operations coordination and clinic background.
 
-I haven't added a tracker row, since this isn't a scam. If the agency checks out, I'll add one when you reply.
+**Steps:**
+1. Don't click anything or send personal details yet. There's nothing to click in this message anyway.
+2. Search for Summit Staffing yourself and find its real website. Confirm that Jordan Patel works there and that the email domain matches. Contact them through the site's own contact details, not by replying to this message.
+3. If the check fails, report it where it arrived. In the US: reportfraud.ftc.gov.
+
+If Summit and Jordan check out, this looks like a real recruiter. Type **fit check** to see if the job fits you, then **reply** to answer this recruiter. The "today" deadline isn't a reason to rush, since she can take time to verify first.
+
+I didn't add a tracker row because it isn't a scam. I also didn't reply to anyone.

@@ -37,11 +37,17 @@ Block 2, what you want (one message, numbered, she can answer in any order):
 
 Block 3, private details (say first: "These stay on your computer and are never shared"):
 > 1. The lowest pay you'd take, yearly or hourly. (This is your floor. I will never say it to anyone.)
-> 2. Anything that's a dealbreaker (for example long commutes, weekend shifts, a type of company)?
+> 2. Anything that's a dealbreaker (for example long commutes, weekend shifts, a type of company)? And for employers that ban or check for AI help in applications: skip them (my suggestion), or flag them so you can write those yourself?
 > 3. Interview limits: for example, take-home tests, how long you can spend, whether you want to use AI tools on them.
 > 4. The email and phone number you want on applications, and your city.
 > 5. How you sign your emails, and a link to book a call if you have one (optional).
 > 6. Which email you use for job mail, and which job sites you're signed in to (for example LinkedIn, Indeed, a company's careers page).
+
+## 2b. Bring in where she already applied
+
+Ask (or read from `setup-answers.md`): "Have you already applied anywhere? Point me to a list, a spreadsheet, a file, or just paste company and job names. I'll add them to your tracker so we never apply twice." Also offer, if a mail tool is connected, to search her mail for application receipts ("thank you for applying", "application received") from the last 90 days, read only.
+
+If the list is long (more than 30 entries) or already a file, save it in the job folder as `applied-before.<txt, md or csv>` unchanged and do not copy its rows into the tracker; every duplicate check searches it. Tell her the count. For a short list, add one tracker row per past application: Kind "application", Status "submitted" (or what the list says, for example "rejected" or "skip"), Source "imported", the link if given, Updated = the date in the list or today. Same company and same role twice: keep one row. Tell her the count: "Added 42 past applications to your tracker."
 
 ## 3. Build the role profile
 
@@ -62,6 +68,7 @@ Copy the templates from `${CLAUDE_PLUGIN_ROOT}/templates/` into the job folder a
 - `rules.md`: copy as is. Add any rule she stated ("no weekend work") under "My own rules" with today's date.
 - `replies.md`: copy, then fill her sign-off, her location line and her top role families into the slots. Keep the angle-bracket slots for the recruiter's name and the reason.
 - `tracker.md`: copy as is.
+- `needs-you.html`: copy as is, and write an empty `board-data.js` (`window.BOARD = { updated: "<now>", items: [] };`).
 - Create empty folders `digests/`, `drafts/`, `applications/`, `reviews/`.
 
 Then show her a short summary: her top 3 role families with strength, her level line, and any ASK ME or claims to fix. Ask her to answer those now or later.
@@ -90,4 +97,4 @@ If no scheduled-tasks tool is available, give her these steps with the exact pro
 
 ## 7. Finish
 
-Show the menu from the start skill (`${CLAUDE_PLUGIN_ROOT}/skills/start/SKILL.md`, step 3). Suggest one first action: "Paste a job post you like and type fit check."
+Tell her: "Your Needs you page is in your Job Search folder: double-click needs-you.html. It lists anything only you can do, like codes and sign-ins." Then show the menu from the start skill (`${CLAUDE_PLUGIN_ROOT}/skills/start/SKILL.md`, step 3). Suggest one first action: "Paste a job post you like and type fit check."

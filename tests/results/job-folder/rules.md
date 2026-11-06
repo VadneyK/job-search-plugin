@@ -15,5 +15,7 @@ Add a line whenever you tell Claude "from now on...". Newest at the bottom, with
 
 ## My own rules
 - (example) No roles that need more than 2 days a week in the office.
-- 2026-11-06: No commission-only pay, no weekly weekend shifts, no sales quotas.
-- 2026-11-06: No roles that need more than 2 days a week in the office, or more than 25 miles from Riverton, OR. No relocation.
+- 2026-11-06: No commission-only pay.
+- 2026-11-06: No weekend shifts every week.
+- 2026-11-06: No sales quotas, and no sales roles.
+- 2026-11-06: No more than 2 days a week in the office, within 25 miles of Riverton, OR. No relocating.

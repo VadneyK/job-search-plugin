@@ -1,6 +1,6 @@
 {
   "name": "job-search",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Set up your profile once, then sweep job mail, check fit and scams, tailor resume lines, fill applications (you click Submit), draft recruiter replies (you approve each one), and review your week. Your data stays in a folder on your own computer.",
   "author": {
     "name": "job-search-plugin contributors"

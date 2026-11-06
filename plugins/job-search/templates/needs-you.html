@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="refresh" content="120">
+<title>Needs you: job search</title>
+<style>
+  :root { --ink:#1d1d1f; --soft:#5b5b63; --line:#e3e3e8; --bg:#fafafa; --card:#fff; --hot:#b42318; --hotbg:#fef3f2; --ok:#027a48; }
+  @media (prefers-color-scheme: dark) { :root { --ink:#f2f2f5; --soft:#a8a8b3; --line:#34343a; --bg:#151517; --card:#1f1f23; --hot:#f97066; --hotbg:#3a1a18; --ok:#6ce9a6; } }
+  * { box-sizing: border-box; }
+  body { margin:0; font: 17px/1.45 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color:var(--ink); background:var(--bg); }
+  main { max-width: 760px; margin: 0 auto; padding: 20px 16px 60px; }
+  h1 { font-size: 26px; margin: 0 0 4px; }
+  .sub { color: var(--soft); margin: 0 0 20px; font-size: 15px; }
+  h2 { font-size: 18px; margin: 28px 0 10px; display:flex; gap:8px; align-items:center; }
+  .count { font-size: 13px; background: var(--line); border-radius: 999px; padding: 1px 9px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; margin: 0 0 10px; }
+  .card.urgent { border-color: var(--hot); background: var(--hotbg); }
+  .card.done { opacity: .45; }
+  .card.done .what { text-decoration: line-through; }
+  .top { display:flex; justify-content: space-between; gap: 10px; align-items: baseline; }
+  .who { font-weight: 600; }
+  .when { color: var(--soft); font-size: 14px; white-space: nowrap; }
+  .what { margin: 6px 0 8px; }
+  .row { display:flex; flex-wrap: wrap; gap: 8px; align-items: center; font-size: 15px; }
+  a.go { background: var(--ink); color: var(--bg); text-decoration: none; padding: 6px 12px; border-radius: 8px; }
+  button { font: inherit; font-size: 15px; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line); background: var(--card); color: var(--ink); cursor: pointer; }
+  .then { color: var(--soft); font-size: 14px; margin-top: 8px; }
+  .file { color: var(--soft); font-size: 14px; }
+  .empty { color: var(--ok); font-weight: 600; }
+  .missing { background: var(--hotbg); border:1px solid var(--hot); border-radius: 12px; padding: 14px 16px; }
+  footer { color: var(--soft); font-size: 13px; margin-top: 36px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Needs you</h1>
+  <p class="sub" id="sub">Loading...</p>
+  <div id="list"></div>
+  <footer>
+    This page lives only on your computer and reads <code>board-data.js</code> next to it. Claude updates it after every sweep, fit check, application and reply.
+    Ticking "Done" only changes this page; tell Claude what you did (the grey line under each card) so your tracker updates too. The page refreshes every 2 minutes.
+  </footer>
+</main>
+<script src="board-data.js"></script>
+<script>
+(function () {
+  var GROUPS = [
+    ["code", "Codes to enter (time limited)"],
+    ["interview", "Interview times to pick"],
+    ["sign-in", "Sign in"],
+    ["robot-check", "Robot checks"],
+    ["id-check", "Identity checks"],
+    ["fill", "Fields only you fill"],
+    ["submit", "Ready for you to submit"],
+    ["approve", "Messages waiting for your yes"],
+    ["decide", "Your call"]
+  ];
+  var list = document.getElementById("list");
+  var sub = document.getElementById("sub");
+  var B = window.BOARD;
+  if (!B || !B.items) {
+    list.innerHTML = '<div class="missing">No board data yet. In Claude, open your Job Search folder and type <b>sweep</b>.</div>';
+    sub.textContent = "";
+    return;
+  }
+  var done = {};
+  try { done = JSON.parse(localStorage.getItem("needs-you-done") || "{}"); } catch (e) {}
+  function save() { try { localStorage.setItem("needs-you-done", JSON.stringify(done)); } catch (e) {} }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; }
+  function safeUrl(u) { return /^https:\/\//i.test(u || "") ? u : null; }
+
+  var open = B.items.filter(function (i) { return !done[i.id]; }).length;
+  sub.textContent = (open === 0 ? "Nothing waiting on you." : open + " thing" + (open === 1 ? "" : "s") + " waiting on you.") + " Updated " + (B.updated || "unknown") + ".";
+
+  var any = false;
+  GROUPS.forEach(function (g) {
+    var items = B.items.filter(function (i) { return i.type === g[0]; });
+    if (!items.length) return;
+    any = true;
+    var h = el("h2", null, g[1]); h.appendChild(el("span", "count", String(items.length))); list.appendChild(h);
+    items.forEach(function (i) {
+      var c = el("div", "card" + (i.urgent ? " urgent" : "") + (done[i.id] ? " done" : ""));
+      var top = el("div", "top");
+      top.appendChild(el("span", "who", [i.company, i.role].filter(Boolean).join(", ")));
+      if (i.since) top.appendChild(el("span", "when", i.since));
+      c.appendChild(top);
+      c.appendChild(el("div", "what", i.do || ""));
+      var row = el("div", "row");
+      var url = safeUrl(i.link);
+      if (url) { var a = el("a", "go", "Open"); a.href = url; a.target = "_blank"; a.rel = "noopener"; row.appendChild(a); }
+      else if (i.where) row.appendChild(el("span", "file", "Where: " + i.where));
+      if (i.file) row.appendChild(el("span", "file", "File: " + i.file));
+      var b = el("button", null, done[i.id] ? "Undo" : "Done");
+      b.onclick = function () { if (done[i.id]) delete done[i.id]; else done[i.id] = new Date().toISOString(); save(); location.reload(); };
+      row.appendChild(b);
+      if (i.then) {
+        var cp = el("button", null, "Copy what to tell Claude");
+        cp.onclick = function () { if (navigator.clipboard) navigator.clipboard.writeText(i.then); cp.textContent = "Copied"; };
+        row.appendChild(cp);
+      }
+      c.appendChild(row);
+      if (i.then) c.appendChild(el("div", "then", 'Then tell Claude: "' + i.then + '"'));
+      list.appendChild(c);
+    });
+  });
+  if (!any) list.appendChild(el("p", "empty", "All clear. Nothing needs you right now."));
+})();
+</script>
+</body>
+</html>

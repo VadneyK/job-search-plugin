@@ -42,4 +42,6 @@ Then ask one question: "Send this exact text?" This is the only question at the 
     - Reply B: attach the resume file her profile names for this role family, if the tool can attach; otherwise tell her to attach it.
 11. Update `tracker.md`: Kind "recruiter", Status "replied" (or "draft waiting on you"), Next step, Owner "them" after sending, Updated today. Note in the draft file "sent <date>" or "not sent".
 
+After saving or sending, rebuild the Needs you board (`${CLAUDE_PLUGIN_ROOT}/reference/needs-you.md`): an unsent draft is type `approve`; offered interview times are type `interview`.
+
 **On "no" or silence:** leave it as a draft. Never send later on your own.

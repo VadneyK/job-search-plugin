@@ -1,5 +1,10 @@
-Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
-I saved the draft and added a tracker row. No mail tool is connected, so if you say yes, you'll need to copy the text and paste it as a reply yourself.
+Casey's message looks like a real one from an in-house recruiter, and the role fails your location rule, so I drafted a no-thanks reply.
+
+- **Scam check:** Looks real. The sender's domain matches the company, and there are no links, fees or personal details asked for.
+- **Fit check:** The role is Office Manager, which is your family 5, a stretch for you. The location fails: "onsite 5 days a week" in Portland, and your limit is remote or hybrid up to 2 days within 25 miles of Riverton. The pay passes: $64,000 to $72,000, and the top is above your floor. The process passes: two interviews. No thread exists with Casey, so this isn't a follow-up.
+- **Reply:** Any fail means the no-thanks reply (C). The reason line names no number and never mentions your pay floor.
+
+I saved the draft to `drafts/2026-11-06-ridgeway-logistics-office-manager-reply.md` and marked it "not sent". I added a row to `tracker.md` (owner: you, needs: approve) and rebuilt the Needs you board in `board-data.js`.
 
 ```
 To: casey.brooks@ridgeway-logistics.example.com
@@ -8,12 +13,14 @@ Subject: Re: Office Manager role in Portland
 
 Hi Casey,
 
-Thanks for thinking of me. This one isn't a fit for me: I'm looking for remote, or hybrid up to 2 days a week within 25 miles of Riverton, OR.
+Thanks for thinking of me. This one isn't a fit for me: I'm looking for remote, or hybrid within 25 miles of Riverton.
 
-If you have operations coordination, scheduling coordination, office management or project coordination roles later, I'd be glad to hear about them.
+If you have operations coordination or project coordination roles later, I'd be glad to hear about them.
 
 Thanks,
 Riley
 ```
+
+No mail tool is connected in this session, so if you say yes, copy the text and send it from your own email.
 
 Send this exact text?

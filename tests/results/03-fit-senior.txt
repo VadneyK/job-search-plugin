@@ -1,21 +1,17 @@
-Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
-**SKIP:** The post requires an MBA and you have a B.A., so the eligibility check fails.
-
-```
-Fit check: Ridgeway Logistics, Senior Director of Operations
-Scam check: LOOKS REAL: no scam signs in the post
-Role family: none (closest is 1, Operations coordination, but this runs 4 warehouses)
-```
+**SKIP: the post requires an MBA, and Riley has a B.A. Communication.**
 
 | Check | Result | Line it is based on |
 |---|---|---|
-| Role family | Fail | "run our 4 regional warehouses" |
-| Level | Fail | "Senior Director of Operations"; "10+ years of operations leadership required, including 5+ years managing managers" |
-| Pay | Pass | "$190,000 to $230,000 plus bonus." |
-| Location | Fail | "Onsite in Portland, OR, 5 days a week." Your rule allows at most 2 days a week in the office. |
+| Role family | Fail | "run our 4 regional warehouses" (her profile lists Director of Operations as too senior) |
+| Level | Fail | "10+ years of operations leadership required, including 5+ years managing managers" (she has about 5 years and no direct reports) |
+| Pay | Pass | "$190,000 to $230,000 plus bonus" (the top is above her $58,000 floor) |
+| Location | Fail | "Onsite in Portland, OR, 5 days a week." (her rule is at most 2 days a week within 25 miles of Riverton, and no relocating) |
 | Process | Unknown | Not stated |
 | Eligibility | Fail | "MBA required" |
+| AI checks | Pass | None found |
 
-- **Level:** "Director of anything" is on your too-senior list.
-- **Chances:** Close to none. You lack the degree, the years, and the management and P&L experience, and 5 days onsite breaks your rule.
-- **Saved:** the post and the fit check are in `applications/ridgeway-logistics-senior-director-of-operations/`. `tracker.md` has a new row marked skip.
+The scam check came back LOOKS REAL, with no signs.
+
+Her chances are close to zero. The gaps are years, team leadership, a degree and a $50M P&L, none of which better wording would close.
+
+I saved the post and the fit check in `applications/ridgeway-logistics-senior-director-of-operations/`. I added a tracker row with Fit SKIP, Status skip and Minutes "start 10:08". I rebuilt the Needs you board. It has no items, because this skipped row and the Northwind row (Owner Claude) don't go on it.

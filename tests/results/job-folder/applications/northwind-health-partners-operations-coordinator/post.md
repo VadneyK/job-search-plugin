@@ -1,5 +1,6 @@
-Link: careers.northwind-health.example.com
+# Post: Northwind Health Partners, Operations Coordinator
 Source file: <repo>/tests/fixtures/posts/match-ops-coordinator.md
+Link: careers.northwind-health.example.com
 
 Northwind Health Partners (fictional): Operations Coordinator (Remote, US)
 

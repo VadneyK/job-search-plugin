@@ -22,7 +22,8 @@ No new facts, ever. Every line must trace to her evidence bank or resume. A shor
 8. **Short note** for the application or email: at most 4 sentences. Name one real detail from the post and one real thing from her evidence. No buzzwords ("passionate", "synergy", "fast-paced"), no claims beyond the evidence. Sign with her sign-off.
 9. **Claims to fix**: any line where her resume and profile disagree, or a claim the post would test that her evidence cannot back. Ask her which version is right.
 10. **One gap**: the one requirement with no evidence that matters most, and an honest way to address it (a question to raise, a small proof piece) without pretending.
-11. Save it as `applications/<id>/tailored.md`. Update the tracker row: Status "tailored", Next step "apply", Updated today.
-12. End with: "Check these lines. When you're happy, type apply and I'll fill the form with you."
+11. If the fit check found an AI check (`${CLAUDE_PLUGIN_ROOT}/reference/ai-checks.md`), stop: do not write lines or a note for an employer that bans AI help. Tell her why in one line.
+12. Save it as `applications/<id>/tailored.md`. Update the tracker row: Status "tailored", Next step "apply", Updated today.
+13. Rebuild the Needs you board (`${CLAUDE_PLUGIN_ROOT}/reference/needs-you.md`). End with: "Check these lines. When you're happy, type apply and I'll fill the form with you."
 
 Do not edit her resume file itself. She decides what goes in it. If she asks you to, write a new copy next to it (for example `Resume - <company>.md`) and leave the original untouched.

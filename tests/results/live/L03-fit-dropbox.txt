@@ -1,0 +1,18 @@
+**SKIP: Level.** The post requires 3+ years in legal operations or in a legal department or law firm, and you have none of that.
+
+Fit check: Dropbox, Legal Operations Associate
+Scam check: LOOKS REAL. It's on Dropbox's own careers site, with no task, deposit, crypto or ID signs.
+
+| Check | Result | Line it is based on |
+|---|---|---|
+| Role family | Fail | "Implement and manage legal technology tools (e.g., CLM, eBilling, matter management)." None of your families is legal ops. |
+| Level | Fail | "3+ years of experience in legal operations... or operations roles within a legal department or law firm." Your 3.5 years are clinic operations. |
+| Pay | Pass | "US Zone 2: $117,000—$158,400 USD" (Oregon is Zone 2), well above your $58,000 floor. |
+| Location | Pass | "Remote - US: Select locations". Travel is "2-3 days per quarter", within your 4-trip limit. |
+| Process | Unknown | Interview steps and take-home aren't stated. |
+| Eligibility | Unknown | "BA/BS from a top university". The post doesn't say whether Riverton State counts as "top". Work authorization isn't stated. |
+| AI checks | Pass | None found. The post says "responsible use of AI for preparation" is supported, which isn't a ban. |
+
+**Chances:** Low. The pay is strong, but you'd likely be screened out on the legal-department requirement before anyone read your clinic work.
+
+I saved the post and fit check in `applications/dropbox-legal-operations-associate/`. I added a skip row to `tracker.md` with start time 10:08. Your Needs you board still shows only the GitLab decision. Dropbox adds nothing to it, so I only updated its timestamp. Open `needs-you.html` in your Job Search folder to see it.

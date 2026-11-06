@@ -1,20 +1,22 @@
-Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
-I saved the tailored lines and note to `applications/northwind-health-partners-operations-coordinator/tailored.md`. In the tracker, the row now says "tailored" with next step "apply". I didn't touch your resume file.
+I saved the tailored lines and note to `applications/northwind-health-partners-operations-coordinator/tailored.md`. The tracker row now reads "tailored", next step "apply". I also added it to your Needs you page: open `needs-you.html` in your Job Search folder. I didn't change your resume file.
 
-**Top requirements and your best evidence**
-- **2+ years in operations, scheduling or office coordination:** you schedule 14 providers across 2 sites at Harborview, and you've been there since Mar 2023.
-- **Advanced Google Workspace or Excel:** you have Google Workspace at advanced level, and you built the shared supply tracker in Google Sheets.
-- **Clear written communication:** the evidence is thin. You have the training checklist you wrote and about 40 customer emails and phone orders a day at Lumen.
-- **Keeping calendars, supply orders and vendor invoices on track:** the scheduling numbers and the supply tracker cover calendars and supplies. You have no vendor invoice evidence, because your Lumen invoices were order invoices.
-- **QuickBooks and Spanish (nice to have):** you kept the order log and invoices in QuickBooks. Spanish appears only in your skills line.
+**Requirements and evidence:**
+- **2+ years in operations, scheduling or office coordination:** you have about 5 years. At Harborview you schedule 14 providers across 2 sites, and before that you worked at Lumen Print Shop.
+- **Advanced Google Workspace or Excel:** your Google Workspace is advanced, and the supply tracker is in Google Sheets. Your Excel is intermediate, so I only claim Google Workspace.
+- **Clear written communication:** your B.A. in Communication and about 40 customer email and phone orders a day.
+- **QuickBooks (nice to have):** you kept the order log and invoices at Lumen, at basic level.
+- **Spanish (nice to have):** conversational, which is on your resume.
 
-**Resume lines:** I wrote 5 tightened lines, each shown next to its old version. No facts were added, and the double-bookings numbers keep "about" and are marked as an estimate.
+**Resume lines:** I wrote 5 lines, each shown next to the old one. Every fact is kept. "About" stays on the estimates, and the pantry result is still credited to "our team". Line 1 drops "in the clinic's scheduling system" and "from the monthly report" to stay under 20 words. Line 4 joins your two Lumen bullets into one.
 
-**Short note:** it's 4 sentences. It names Northwind's 6 clinics and your scheduling numbers and supply tracker, and it signs "Thanks, Riley". I left the 1-day-versus-3 restock claim out of it.
+**Short note:** 4 sentences, signed "Thanks, Riley". It mentions the post's 6 outpatient clinics and your supply tracker, which cut restock requests from 3 days to 1.
 
-**Questions for you**
-1. Is "restock requests now take 1 day instead of 3" measured, or is it your estimate? If it's an estimate, I'll write "About 1 day instead of 3".
-2. Which scheduling system do you use at the clinic? I'll only name it if you tell me.
-3. Written communication is the biggest gap. Could you share the front-desk training checklist you wrote, or a cleaned copy with no private details, as a work sample? Only say yes if that's true and okay to share.
+**Claims to fix** (please answer):
+1. Do you have exact double-booking numbers from the monthly report? Until then they stay "about" and "(estimate)".
+2. Which year did you build the supply tracker?
+3. Which scheduling system does the clinic use?
+4. Do you have a PDF or Word copy of your resume? Your resume is a text file, and most applications need one of those.
+
+**The gap:** the post says "vendor invoices", and you have no vendor or payables work on file. Your QuickBooks use was the order log and customer invoices at basic level. I wouldn't stretch that line. Instead, ask on the recruiter call how vendor invoices flow. If you've handled any at the clinic, tell me and I'll add it.
 
 Check these lines. When you're happy, type apply and I'll fill the form with you.

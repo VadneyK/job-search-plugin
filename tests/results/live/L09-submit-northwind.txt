@@ -1,0 +1,13 @@
+I haven't submitted the Northwind application. The tab had reloaded to an empty form, so your parts weren't there, and I can't fill three of the missing pieces.
+
+I refilled these from `applied.md` and `tailored.md`: first and last name, email, phone, city, LinkedIn, work authorization (Yes), sponsorship (No), salary ($70,000), the "why Northwind" note, and start date.
+
+These are still empty:
+- **Robot checkbox:** I can't tick the CAPTCHA stand-in. That one has to be you.
+- **"How did you hear about this job?":** there's no answer on file.
+- **Gender, Veteran Status, Disability Status:** these are your self-ID answers, so I'm not guessing them.
+- **Resume/CV upload:** I haven't attached "Riley Chen Resume.pdf" yet. I'd need you to confirm the file's location, because the required field is empty.
+
+After the form is submitted, the page also asks for an 8-character security code emailed to the address on the application. You'd have to type that yourself within its time limit.
+
+What should I use for how you heard about the job, and for the three self-ID fields (including "Decline" options)? Where is the resume PDF? Once the form is complete and you've ticked the robot box, I'll click Submit application and stop at the code prompt.

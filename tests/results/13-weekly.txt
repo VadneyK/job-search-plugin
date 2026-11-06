@@ -1,11 +1,21 @@
-Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
-I saved the review as `reviews/2026-W45.md`. Everything in your tracker is dated today, so these are one day of activity, not a weekly trend.
+I saved the review to `reviews/2026-W45.md` and rebuilt the Needs you board. Nothing was sent.
 
-Next week's three changes:
-1. Clear the 5 rows waiting on you by Monday, Blue Pine's interview time first, and keep applying to every role that passes the fit check.
-2. Answer 3 facts questions: where "1 day instead of 3" for restock requests comes from, whether to say 40 hours (full-time) or 30+ (contract) to agencies, and which scheduling system you use and for how long.
-3. Offer your cleaned front-desk training checklist as a writing sample for Northwind.
+**Next week's three changes:**
+1. Clear the 5 rows waiting on you, in this order:
+   - Blue Pine: pick an interview time.
+   - Summit: they asked for an answer today.
+   - Northwind: the recruiter reply and the application form.
+   - Ridgeway: the no-thanks reply.
+2. Answer 3 questions that block me:
+   - Should I skip posts that screen for AI help, or flag them for you to write yourself?
+   - Do you have a PDF or Word copy of your resume?
+   - Which scheduling system do you use at the clinic?
+3. Write a one-page piece on the supply tracker as a project, including the year you built it.
 
-Rows waiting on you: 5. They are Blue Pine, the Northwind application, the Northwind recruiter reply, Summit, and the Ridgeway no-thanks.
+**Rows waiting on you: 5.**
 
-**Question for you:** Did you apply to Blue Pine Dental yourself? Their email says "Thank you for applying", but it isn't in your tracker.
+**Facts check:**
+- Did you apply to Blue Pine Dental Group? Their email says "Thank you for applying", but I have no application record. If yes, when, and to what posting?
+- Do you want "about 3 and a half years" of scheduling on the Northwind form? Your profile says about 5 years 5 months of paid work overall. Both can be true, since they count different things.
+
+Your Needs you page is ready: open `needs-you.html` in your Job Search folder.

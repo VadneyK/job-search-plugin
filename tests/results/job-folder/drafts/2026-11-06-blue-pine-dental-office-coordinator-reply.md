@@ -1,15 +1,18 @@
-# Draft reply (interview time) - Blue Pine Dental Group, Office Coordinator
-Status: not sent. Riley must pick the time. Claude has not accepted either slot.
+# DRAFT, not sent. Pick your time before sending.
 
-To: careers@bluepine-dental.example.com
-Cc: none
+To: Taylor Kim <careers@bluepine-dental.example.com>
 Subject: Re: Interview request: Office Coordinator
 
 Hi Taylor,
 
-Thank you for the invitation. I'd be glad to do the 30-minute video interview. <CHOOSE ONE: "Tuesday at 10 am Pacific works for me." | "Wednesday at 2 pm Pacific works for me." | "Could we find another time? I'm free on ___.">
+Thank you for the invitation. I'm glad to do a 30-minute video interview for the Office Coordinator role.
 
-Could you also tell me the office location and the interview steps after this call?
+[YOU CHOOSE: "Tuesday at 10 am Pacific works for me." or "Wednesday at 2 pm Pacific works for me." or offer other times]
+
+Please send the video link and let me know if there's anything I should prepare.
 
 Thanks,
 Riley
+
+---
+Notes for Riley: I did not accept a time for you. Your tracker has no record of applying to Blue Pine Dental, so confirm you did apply. The scam check found no signs and the sender domain matches the company name, but verify on their real website.

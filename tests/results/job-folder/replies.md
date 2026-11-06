@@ -4,7 +4,6 @@ Three short replies, in my voice. Claude fills only the slots in angle brackets 
 Edit the wording to sound like you. Keep each under about 90 words.
 
 The one rule: my calendar link goes out only in reply B, and only after the role passes every fit check.
-(No calendar link is set, so reply B asks "What times work for you this week?")
 
 ---
 
@@ -15,11 +14,11 @@ No calendar link. No pay number. Ask only what is unknown, at most 3 questions.
 ```
 Hi <their first name>,
 
-Thanks for reaching out. I'm open to full-time or contract work (30+ hours a week) right now, and this could be a fit.
+Thanks for reaching out. I'm open to <kind of work from my profile> right now, and this could be a fit.
 
 <A few questions | One question> before we set up a call:
 1. What is the pay range, or the hourly budget if it's a contract?
-2. Is it remote? I'm near Riverton, OR, so hybrid up to 2 days a week within 25 miles also works.
+2. Is it remote? I'm near Riverton, so hybrid within 25 miles also works.
 3. What are the interview steps?
 
 Thanks,
@@ -51,6 +50,7 @@ Thanks,
 Riley
 ```
 
+- I have no calendar link yet, so the line stays "What times work for you this week?". If I add a link to profile.md, Claude offers "You can pick a time here: <link>" instead.
 - The reason uses only facts from their message or the post.
 - In-house recruiter (works at the company itself): delete "Please don't submit my profile anywhere until we've talked."
 
@@ -63,7 +63,7 @@ Hi <their first name>,
 
 Thanks for thinking of me. This one isn't a fit for me: <reason>.
 
-If you have operations coordination, scheduling coordination, office management or project coordination roles later, I'd be glad to hear about them.
+If you have operations coordination or project coordination roles later, I'd be glad to hear about them.
 
 Thanks,
 Riley
@@ -71,7 +71,7 @@ Riley
 
 Reason lines (pick the first failing check; never state a number):
 - Pay below my floor: `the range is below where I need to be`
-- Onsite or relocation: `I'm looking for remote, or hybrid up to 2 days a week within 25 miles of Riverton, OR`
+- Onsite or relocation: `I'm looking for remote, or hybrid within 25 miles of Riverton`
 - Level too senior: `it asks for more experience than I have`
 - Level too junior: `it's set up for an earlier career stage than mine`
 - Process: `the interview process doesn't fit what I can do right now`

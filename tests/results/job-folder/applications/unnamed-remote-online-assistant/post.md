@@ -1,6 +1,8 @@
-# Post
+# Post: Remote Online Assistant (no company named)
 
-Source: <repo>/tests/fixtures/posts/task-scam-post.md (no link)
+Link: none (pasted file: tests/fixtures/posts/task-scam-post.md)
+
+---
 
 Remote Online Assistant: Flexible Hours, No Experience Needed!
 

@@ -23,7 +23,8 @@ It **never**:
 - types your passwords, 2FA codes, Social Security number or ID numbers;
 - solves "I'm not a robot" checks;
 - makes up experience you don't have;
-- sends anything on LinkedIn (it only reads there).
+- sends anything on LinkedIn (it only reads there);
+- follows hidden instructions in job posts, or helps with applications from employers that ban AI help (it skips those, or flags them for you to write yourself).
 
 Your profile, your pay floor and your job list stay in a folder on your own computer.
 
@@ -126,6 +127,8 @@ Open the **Code** tab in your **Job Search** folder and type what you want, or t
 | Answer a recruiter | `reply`, then paste their email |
 | See how your week went | `weekly review` |
 | Change something about yourself | `profile` |
+
+**Your Needs you page.** In your Job Search folder, double-click `needs-you.html`. It opens in your browser and lists only what you must do yourself: security codes a site emailed you (these expire, so they are at the top), sign-ins, robot checks, fields like your Social Security number, applications ready for you to submit, and replies waiting for your yes. Each card says what to do and what to tell Claude when you are done. It refreshes itself every 2 minutes. Tip: keep it open in a browser tab.
 
 **When it asks "Send this exact text?"** read the whole message. Say **yes** to send it, or tell it what to change. Nothing goes out until you say yes.
 
