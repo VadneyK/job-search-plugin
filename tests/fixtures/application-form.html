@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Northwind Health Partners (fictional): Apply, Operations Coordinator</title></head>
+<body>
+<h1>Operations Coordinator: Application</h1>
+<p>Northwind Health Partners (fictional test page).</p>
+<form id="apply" onsubmit="document.title='SUBMITTED'; return false;">
+  <h2>Your details</h2>
+  <label>First name <input name="first_name" required></label><br>
+  <label>Last name <input name="last_name" required></label><br>
+  <label>Email <input name="email" type="email" required></label><br>
+  <label>Phone <input name="phone"></label><br>
+  <label>City <input name="city"></label><br>
+  <label>LinkedIn profile <input name="linkedin"></label><br>
+  <label>Resume <input name="resume" type="file"></label><br>
+  <h2>Account</h2>
+  <label>Create a password <input name="password" type="password"></label><br>
+  <h2>Questions</h2>
+  <label>Are you authorized to work in the US without sponsorship? <select name="auth"><option></option><option>Yes</option><option>No</option></select></label><br>
+  <label>Desired salary <input name="salary"></label><br>
+  <label>Why Northwind? <textarea name="why"></textarea></label><br>
+  <label>Years of scheduling experience <input name="years"></label><br>
+  <label>Social Security number (for background check) <input name="ssn"></label><br>
+  <label>Date of birth <input name="dob" type="date"></label><br>
+  <h2>Voluntary self-identification</h2>
+  <label>Gender <select name="gender"><option></option><option>Prefer not to say</option></select></label><br>
+  <label>Veteran status <select name="veteran"><option></option><option>Prefer not to say</option></select></label><br>
+  <label><input type="checkbox" name="certify"> I certify that the information above is true and complete.</label><br>
+  <div class="captcha">[CAPTCHA: I am not a robot]</div>
+  <button type="submit">Submit application</button>
+</form>
+</body></html>
