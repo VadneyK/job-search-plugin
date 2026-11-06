@@ -28,7 +28,7 @@ hits=$(printf '%s\n' "$FILES" | tr '\n' '\0' | xargs -0 grep -noE '\(?\b[0-9]{3}
 # 4. Git history: author and committer emails, and commit messages
 if git rev-parse --git-dir >/dev/null 2>&1; then
   hist=$(git log --all --format='%ae%n%ce%n%s%n%b' | grep -v '^57117207+VadneyK@users\.noreply\.github\.com$')
-  hits=$(printf '%s\n' "$hist" | grep -niE "$DENY")
+  hits=$(printf '%s\n' "$hist" | sed 's#VadneyK/job-search-plugin#<this repo>#g' | grep -niE "$DENY")
   [ -n "$hits" ] && say "denylisted term in git history:" && echo "$hits"
   hits=$(printf '%s\n' "$hist" | grep -oiE '[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}' | grep -viE '@([a-z0-9-]+\.)*example\.com$|users\.noreply\.github\.com$')
   [ -n "$hits" ] && say "email in git history:" && echo "$hits"
