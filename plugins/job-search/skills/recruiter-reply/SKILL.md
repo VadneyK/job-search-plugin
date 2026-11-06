@@ -21,7 +21,7 @@ description: Drafts a reply to a recruiter in her voice from her reply templates
 4. Scam check (`${CLAUDE_PLUGIN_ROOT}/reference/scam-signs.md`). LIKELY SCAM: no reply; follow the scam steps.
 5. Is it a real person about a real role? If not (alert, blast, task platform), no reply; log it.
 6. Fit check (`${CLAUDE_PLUGIN_ROOT}/reference/fit-test.md`) from the message and any post it links (read only).
-7. Pick the reply with the rules at the bottom of `replies.md`: any Fail is C, Unknowns with no Fail is A, all Pass is B. YOUR CALL: ask her before drafting.
+7. Pick the reply with the rules at the bottom of `replies.md`: any Fail is C, Unknowns with no Fail is A, all Pass is B. Only a YOUR CALL verdict (pay below her full-time floor with an upside, or a stretch role) waits for her choice before drafting. For A, B and C, **do not ask whether to draft: draft it now.** Drafting sends nothing; her one decision is whether to send the exact text.
 8. Fill the template. Replace only the slots. Use their first name as they signed. For A, ask only the Unknowns, at most 3, in this order: pay, location, process, which company (agency), level. For B, the reason uses only their facts; include her calendar link only if her profile has one, otherwise ask what times work. Under about 90 words.
 9. Save the draft as `drafts/<date>-<id>-reply.md`, then show her:
 
@@ -33,7 +33,7 @@ Subject: Re: <their subject>
 <full body>
 ```
 
-Then ask one question: "Send this exact text?"
+Then ask one question: "Send this exact text?" This is the only question at the end. Put any note (for example "attach your resume yourself") above the draft, not as a second question.
 
 10. **On her yes:**
     - If a mail tool that can send is connected, reply on the same thread from the account the message came to. Check Sent first so it never goes twice.

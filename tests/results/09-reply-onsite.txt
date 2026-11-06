@@ -1,0 +1,19 @@
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+I saved the draft and added a tracker row. No mail tool is connected, so if you say yes, you'll need to copy the text and paste it as a reply yourself.
+
+```
+To: casey.brooks@ridgeway-logistics.example.com
+Cc: none
+Subject: Re: Office Manager role in Portland
+
+Hi Casey,
+
+Thanks for thinking of me. This one isn't a fit for me: I'm looking for remote, or hybrid up to 2 days a week within 25 miles of Riverton, OR.
+
+If you have operations coordination, scheduling coordination, office management or project coordination roles later, I'd be glad to hear about them.
+
+Thanks,
+Riley
+```
+
+Send this exact text?

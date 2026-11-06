@@ -1,0 +1,55 @@
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+Your job files will live in `/private<test folder>/Job Search`. Only you and Claude on this computer use them.
+
+I read your prepared answers (`setup-answers.md`) and your resume, so I didn't need to ask you the setup questions. Your profile, rules, reply templates and tracker are written, plus empty `digests`, `drafts`, `applications` and `reviews` folders.
+
+## Your summary
+
+**Top role families**
+1. **Operations coordination**: Strong. You're a Operations Coordinator at Harborview Clinic (Mar 2023 to now) and built the supply tracker.
+2. **Scheduling coordination**: Strong. You schedule 14 providers across 2 sites and cut double-bookings from about 30 to about 5 a month.
+3. **Office management**: Moderate. You have no paid role managing people or a budget yet.
+
+Project coordination is also Moderate, because the evidence is real but has no project title behind it. I listed two more families, volunteer or community program coordination and administrative support. Both are Moderate, and the second is a step back from where you are.
+
+**Your level:** about 5 years of paid office and operations work. You read as early-career to mid-level. Operations Manager, Practice Manager and Program Manager are too senior for now. Receptionist and Data Entry Clerk are too junior.
+
+**Questions I need you to answer, now or later (they're marked ASK ME in `profile.md`)**
+1. "Restock requests now take 1 day instead of 3" has no source. Is it measured or an estimate? If it's an estimate, I'll write "About".
+2. Is 30 hours a week fine for contract work, while full-time means 40?
+3. Which scheduling system do you use at the clinic? I'll only name it if you tell me.
+4. Would a lower full-time salary ever be your call instead of a no, for example with strong benefits?
+5. What interview hours can you do?
+6. What should the standing form answers be for "How did you hear about us", "Are you 18 or older" and "Willing to do a background check"?
+
+I'll always say "our team serves about 200 families" for the food pantry, never "I serve".
+
+## Your tools
+
+I checked this session, and none of the three tools is connected:
+- **Job mail:** I can't read Gmail yet. To connect it, open Claude's Settings, then Connectors, and connect Gmail. Until then, paste emails into a file called `inbox-paste.md` in your job folder.
+- **Filling forms in the browser:** this needs the Claude in Chrome extension. Install it from the Chrome Web Store, sign in with your Claude account, and keep Chrome open. Until then I'll give you answers to copy in.
+- **Scheduled runs:** I can't create these from here. The steps are below.
+
+## Daily and weekly runs
+
+Do you want me to check your job mail every weekday morning and do a review every Friday? These runs only read and draft. They never send or submit anything.
+
+If yes, set them up in the Claude desktop app. In the Code tab, click **Scheduled** in the sidebar, then **New task**. Name it, paste the prompt, turn on **Only on this computer** (under Advanced settings), and pick your job folder as the Local folder. Set the permission mode to **Accept edits**, then click **Create**.
+- `job-search-sweep`, Weekdays at 8:00. Prompt: "Run the job-search sweep skill in unattended mode: read and draft only, send nothing, submit nothing."
+- `job-search-weekly`, Weekly on Friday at 4:00 pm. Prompt: "Run the job-search weekly-review skill."
+
+They run only while the Claude app is open and the computer is awake. A missed run catches up once when the computer wakes. Click **Run now** once on each task and choose "always allow" for file edits in your job folder, so later runs don't stop on a question.
+
+## What would you like to do?
+```
+1. Check my job mail and sites      (type: sweep)
+2. Is this job a fit? Paste a post  (type: fit check)
+3. Is this message a scam?          (type: scam check)
+4. Tailor my resume for a job       (type: tailor)
+5. Fill an application with me      (type: apply)
+6. Answer a recruiter               (type: reply)
+7. Review my week                   (type: weekly review)
+8. Change my profile or rules       (type: profile)
+```
+A good first step: paste a job post you like and type **fit check**.

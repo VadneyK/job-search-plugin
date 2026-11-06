@@ -22,7 +22,7 @@ Job scams are common, and **task scams** are now among the most reported kinds: 
 11. A sender whose name, company, title or role changes, or odd spelling and mixed alphabets in names or links.
 12. Pressure to act today, or secrecy ("don't tell anyone about this job").
 13. A link, shortened URL or attachment to open before anything is confirmed.
-14. Early asks for her home address, ID, Social Security number, date of birth or bank login.
+14. A recruiter or message asking early for her home address, ID, Social Security number, date of birth or bank login. (An SSN field on an application form at the company's real site is a warning to leave blank, not by itself a scam.)
 15. A job she never applied for that "already approved" her.
 
 ## Verdict

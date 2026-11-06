@@ -1,0 +1,26 @@
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+**Verdict: APPLY.** This role is remote, pays above your floor, and is the same work you do now.
+
+Fit check: Northwind Health Partners, Operations Coordinator
+Scam check: LOOKS REAL. I found no scam signs, and the apply link is on the company's own careers domain.
+Role family: 1, Operations coordination (Strong)
+
+| Check | Result | Line it is based on |
+|---|---|---|
+| Role family | Pass | "Coordinate scheduling and supplies for our network of 6 outpatient clinics." |
+| Level | Pass | "2+ years of experience in operations, scheduling or office coordination, ideally in healthcare". You have about 3 years 8 months in your current role, and "ideally in healthcare" is only a preference. |
+| Pay | Pass | "$60,000 to $70,000 a year, plus health benefits." The whole range is above your floor. |
+| Location | Pass | "Fully remote within the US. Occasional travel (2 to 3 times a year)." That's within your limit of 4 trips a year. |
+| Process | Pass | "30-minute recruiter call, 1-hour panel interview, a 2-hour scheduling exercise (AI tools allowed)." The exercise is under your 3-hour limit, and AI tools are allowed. |
+| Eligibility | Not stated | The post names no work authorization, license, degree or background check. |
+
+**Questions for the first call:**
+- Is a background check part of hiring?
+- Which scheduling system do the clinics use?
+- What do the health benefits include?
+
+**Chances:** Good. You already schedule providers and run supplies at a clinic. Leading with your scheduling numbers (14 providers, double-bookings cut from about 30 to about 5 a month) would help most.
+
+I saved the post and this check in `applications/northwind-health-partners-operations-coordinator/`. I also added a row to `tracker.md` with status "fit checked".
+
+Next: type **tailor** to write resume lines and a short note for this one.

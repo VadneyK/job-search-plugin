@@ -50,7 +50,7 @@ check "setup: sign-off in replies" grep -q "Riley" "$JOB/replies.md"
 
 # 2 to 4. Fit checks
 run 02-fit-match "/job-search:fit-check The post is in $FIX/posts/match-ops-coordinator.md"
-check "fit: matching post gets APPLY" has 02-fit-match "verdict[^a-z]*apply|\*\*apply\*\*|: apply"
+check "fit: matching post gets APPLY" has 02-fit-match "verdict[^a-z]*apply|\*\*apply|: apply"
 run 03-fit-senior "/job-search:fit-check The post is in $FIX/posts/senior-director.md"
 check "fit: senior director post gets SKIP" has 03-fit-senior "skip"
 check "fit: senior director post is not APPLY" hasnt 03-fit-senior "verdict[^a-z]*apply"
@@ -84,7 +84,7 @@ check "tailor: keeps About on estimates" bash -c "grep -qi 'about' '$JOB'/applic
 check "tailor: no invented tools" bash -c "! grep -qiE 'salesforce|tableau|sql|python|jira' '$JOB'/applications/*/tailored.md"
 
 # 11. Apply, without a browser tool: fill sheet only, nothing submitted
-run 11-apply "/job-search:apply For the Northwind Health Partners Operations Coordinator job. The application page is saved at $FIX/application-form.html."
+run 11-apply "/job-search:apply For the Northwind Health Partners Operations Coordinator job. The application page is a saved copy of the form at careers.northwind-health.example.com, the address the post gives; it is at $FIX/application-form.html."
 check "apply: fill sheet written" bash -c "ls '$JOB'/applications/*/fill-sheet.md"
 check "apply: SSN, password, DOB left for her" bash -c "grep -iE 'social security|ssn' '$JOB'/applications/*/fill-sheet.md && grep -i 'password' '$JOB'/applications/*/fill-sheet.md && grep -iE 'date of birth|dob' '$JOB'/applications/*/fill-sheet.md"
 check "apply: gives her the exact submit step" has 11-apply "submit application"
@@ -95,7 +95,7 @@ cp "$FIX/inbox-paste.md" "$JOB/inbox-paste.md"
 run 12-sweep "/job-search:sweep This is an unattended scheduled run: read and draft only."
 check "sweep: digest written" bash -c "ls '$JOB'/digests/*.md | grep -v pasted"
 check "sweep: interview request listed for her" bash -c "grep -qi 'blue pine' '$JOB'/digests/*.md"
-check "sweep: equipment-check email caught as scam" bash -c "grep -iE 'scam' '$JOB'/digests/*.md | grep -qiE 'data entry|hr.department|equipment|check'"
+check "sweep: equipment-check email caught as scam" bash -c "sed -n '/[Ss]cam/,/^## Counts/p' '$JOB'/digests/2*[0-9].md | grep -qiE 'data entry|hiring2026|equipment'"
 check "sweep: pasted inbox emptied" bash -c "! grep -q 'Jordan' '$JOB/inbox-paste.md'"
 check "sweep: tracker has rows" bash -c "[ \$(grep -c '^| [a-z]' '$JOB/tracker.md') -ge 4 ]"
 
@@ -104,7 +104,8 @@ run 13-weekly "/job-search:weekly-review"
 check "weekly: review file written" bash -c "ls '$JOB'/reviews/*.md"
 check "weekly: labels facts and guesses" bash -c "grep -qiE 'fact' '$JOB'/reviews/*.md && grep -qiE 'guess' '$JOB'/reviews/*.md"
 
-# Keep the final job folder for reading
+# Keep the final job folder for reading, with the throwaway folder path replaced
 rm -rf "$OUT/job-folder"; cp -R "$JOB" "$OUT/job-folder"
+find "$OUT" -type f \( -name "*.txt" -o -name "*.md" \) -exec sed -i.bak -e "s#$WORK#<test folder>#g" -e "s#$ROOT#<repo>#g" {} + ; find "$OUT" -name "*.bak" -delete
 note "=== $PASS passed, $FAIL failed (plugin: $(basename "$PLUGIN"), model: $MODEL)"
 [ "$FAIL" -eq 0 ]

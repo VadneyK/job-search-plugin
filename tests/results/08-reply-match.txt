@@ -1,0 +1,30 @@
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+Morgan Lee's message is a real, in-house answer to your earlier questions, and every fit check now passes. So I drafted reply B (let's talk). Nothing has been sent.
+
+- **Scam check:** Looks real. Morgan writes from the company's own domain. Nothing asks for money or details.
+- **Pay:** $62,000 to $70,000 is above your floor.
+- **Location and process:** It's remote, with 2 to 3 trips a year, which is within your limit of 4. The steps are a 30-minute call, a 1-hour panel and a 2-hour exercise with AI tools allowed, which fits your 3-hour limit.
+- **Level:** Coordinator level asking 2+ years fits you.
+
+Attach `resume-riley.md` yourself when you send. I have no mail tool here, and your profile has no calendar link, so the draft asks what times work. Since Morgan is in-house, I left out the "don't submit my profile" line.
+
+I saved the draft to `drafts/2026-11-06-northwind-health-partners-operations-coordinator-reply.md`. I also added a tracker row with status "draft waiting on you".
+
+```
+To: morgan.lee@northwind-health.example.com
+Cc: none
+Subject: Re: Operations Coordinator, Northwind Health Partners
+
+Hi Morgan,
+
+Thanks for the details. This sounds like a real match: it's a full-time coordinator role with 2+ years asked, fully remote within the US, and the steps are clear.
+
+I'd be glad to talk. What times work for you this week?
+
+My resume is attached.
+
+Thanks,
+Riley
+```
+
+Send this exact text?

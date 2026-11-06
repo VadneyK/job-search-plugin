@@ -1,0 +1,9 @@
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+The sweep is done and the digest is at `digests/2026-11-06.md`. Four items need Riley.
+
+- **Most urgent:** Blue Pine Dental sent an interview request for Tuesday at 10 am or Wednesday at 2 pm Pacific. I accepted neither time. The reply draft has a placeholder for the time she picks. Blue Pine wasn't in her tracker, so she should also confirm she applied.
+- **Other drafts waiting for her yes or no:** Summit Staffing (reply A, questions first), Northwind Health Partners (reply B) and Ridgeway Logistics (reply C, a polite no).
+- **Scam caught:** the "Remote Data Entry" email asked for her home address and bank name and offered a check for equipment. I didn't answer it. The tracker row is marked scam.
+- **Not read:** Gmail, LinkedIn and Indeed, because no mail or browser tool was connected. I swept only her pasted emails and archived them to `digests/2026-11-06-pasted.md`; `inbox-paste.md` is now empty.
+
+Nothing was sent or submitted. Riley can type "reply" to review the drafts.

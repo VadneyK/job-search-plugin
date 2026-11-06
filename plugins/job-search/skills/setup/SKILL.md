@@ -31,7 +31,7 @@ Read it fully. If it is a PDF or Word file, read the text out of it.
 Block 2, what you want (one message, numbered, she can answer in any order):
 > 1. What kind of work: full-time, part-time, contract, or open to any?
 > 2. What jobs are you hoping for? A sentence is fine, or "not sure".
-> 3. Where can you work: remote, hybrid (how far from home), or onsite?
+> 3. Where can you work: remote, hybrid (how far from home), or onsite? How much work travel is OK (for example "a few trips a year")?
 > 4. Can you work in this country without visa sponsorship?
 > 5. When could you start, and how many hours a week?
 

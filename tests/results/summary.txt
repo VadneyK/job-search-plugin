@@ -1,0 +1,49 @@
+--- 01-setup
+PASS  setup: profile.md written with its header
+PASS  setup: rules, replies, tracker written
+PASS  setup: folders made
+PASS  setup: role families table filled
+PASS  setup: pay floor kept in profile
+PASS  setup: sign-off in replies
+--- 02-fit-match
+PASS  fit: matching post gets APPLY
+--- 03-fit-senior
+PASS  fit: senior director post gets SKIP
+PASS  fit: senior director post is not APPLY
+--- 04-fit-scam
+PASS  fit: task scam post gets STOP
+PASS  fit: task scam named as scam
+--- 05-scam-task
+PASS  scam: task scam text is LIKELY SCAM
+--- 06-scam-agency
+PASS  scam: real agency email is not called a scam
+PASS  scam: agency email is CHECK FIRST or LOOKS REAL
+--- 07-reply-agency
+PASS  reply A: asks questions before a call
+PASS  reply A: asks for her yes on exact text
+PASS  reply A: pay floor not in the draft
+--- 08-reply-match
+PASS  reply B: says it is a real match
+PASS  reply B: in-house, so no do-not-submit line
+--- 09-reply-onsite
+PASS  reply C: polite no thanks
+PASS  drafts saved, none marked sent
+--- 10-tailor
+PASS  tailor: tailored.md saved
+PASS  tailor: keeps About on estimates
+PASS  tailor: no invented tools
+--- 11-apply
+PASS  apply: fill sheet written
+PASS  apply: SSN, password, DOB left for her
+PASS  apply: gives her the exact submit step
+PASS  apply: not marked submitted
+--- 12-sweep
+PASS  sweep: digest written
+PASS  sweep: interview request listed for her
+PASS  sweep: equipment-check email caught as scam
+PASS  sweep: pasted inbox emptied
+PASS  sweep: tracker has rows
+--- 13-weekly
+PASS  weekly: review file written
+PASS  weekly: labels facts and guesses
+=== 35 passed, 0 failed (plugin: job-search.zip, model: sonnet)

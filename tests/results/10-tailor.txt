@@ -1,0 +1,20 @@
+Warning: no stdin data received in 3s, proceeding without it. If piping from a slow command, redirect stdin explicitly: < /dev/null to skip, or wait longer.
+I saved the tailored lines and note to `applications/northwind-health-partners-operations-coordinator/tailored.md`. In the tracker, the row now says "tailored" with next step "apply". I didn't touch your resume file.
+
+**Top requirements and your best evidence**
+- **2+ years in operations, scheduling or office coordination:** you schedule 14 providers across 2 sites at Harborview, and you've been there since Mar 2023.
+- **Advanced Google Workspace or Excel:** you have Google Workspace at advanced level, and you built the shared supply tracker in Google Sheets.
+- **Clear written communication:** the evidence is thin. You have the training checklist you wrote and about 40 customer emails and phone orders a day at Lumen.
+- **Keeping calendars, supply orders and vendor invoices on track:** the scheduling numbers and the supply tracker cover calendars and supplies. You have no vendor invoice evidence, because your Lumen invoices were order invoices.
+- **QuickBooks and Spanish (nice to have):** you kept the order log and invoices in QuickBooks. Spanish appears only in your skills line.
+
+**Resume lines:** I wrote 5 tightened lines, each shown next to its old version. No facts were added, and the double-bookings numbers keep "about" and are marked as an estimate.
+
+**Short note:** it's 4 sentences. It names Northwind's 6 clinics and your scheduling numbers and supply tracker, and it signs "Thanks, Riley". I left the 1-day-versus-3 restock claim out of it.
+
+**Questions for you**
+1. Is "restock requests now take 1 day instead of 3" measured, or is it your estimate? If it's an estimate, I'll write "About 1 day instead of 3".
+2. Which scheduling system do you use at the clinic? I'll only name it if you tell me.
+3. Written communication is the biggest gap. Could you share the front-desk training checklist you wrote, or a cleaned copy with no private details, as a work sample? Only say yes if that's true and okay to share.
+
+Check these lines. When you're happy, type apply and I'll fill the form with you.

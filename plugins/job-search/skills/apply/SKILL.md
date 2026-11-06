@@ -23,7 +23,7 @@ She stays in control. You do the typing; she does the deciding.
 1. Find her job folder (`${CLAUDE_PLUGIN_ROOT}/reference/job-folder.md`). Read `profile.md`, `rules.md`, and `applications/<id>/` (post, fit check, tailored lines).
 2. **Checks before anything is typed:**
    - No fit check yet: run it (`${CLAUDE_PLUGIN_ROOT}/skills/fit-check/SKILL.md`). SKIP or STOP: stop and tell her. YOUR CALL: ask her first.
-   - Run the scam signs (`${CLAUDE_PLUGIN_ROOT}/reference/scam-signs.md`) on the application page itself: its address should be the company's real site or a known applicant system (for example Greenhouse, Lever, Workday, Ashby, iCIMS, SmartRecruiters). Anything that asks for bank details, a fee or an ID number up front is a stop.
+   - Run the scam signs (`${CLAUDE_PLUGIN_ROOT}/reference/scam-signs.md`) on the application page itself: its address should be the company's real site or a known applicant system (for example Greenhouse, Lever, Workday, Ashby, iCIMS, SmartRecruiters). A page that asks for a fee, bank details or a deposit is a stop. A page that asks for a Social Security number, ID number or date of birth before an offer is a **warning**, not a stop: leave those fields empty, tell her real employers usually collect them after an offer, and fill the rest only if the page is on the company's real site or a known applicant system. If you cannot tell where the page lives, ask her to confirm the address before you fill.
 3. **With Claude in Chrome** (browser tools available):
    1. Open the application page in a new tab. If it needs a login, stop and ask her to sign in.
    2. Read every field on the page first. Make a plan: field, value, source (profile line, tailored line, resume, or "for you").
