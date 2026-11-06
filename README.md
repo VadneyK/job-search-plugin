@@ -70,7 +70,7 @@ From claude.com/pricing and the Claude docs: Claude Code (also in the desktop ap
 
 **What the runs changed.** Run 1 (30 of 35): the reply skill asked about travel because the profile had no travel line (setup now asks), and the apply skill refused the whole form because it had an SSN field (now a warning: leave it blank, fill the rest on a verified site). Run 2 (26 of 35): the reply skill asked "should I draft?" before drafting (it now drafts, and its one question is "Send this exact text?"); the other failures were test patterns, fixed.
 
-**Not tested here:** the desktop app's Upload plugin button, a real Gmail connector, filling a live form through Claude in Chrome, a desktop scheduled task, and a real Pro account's usage limits. Those need a person's own account; the skills fall back to pasting and copying when a tool is missing.
+**Not tested here:** a PDF or Word resume (the runs used a text resume), the desktop app's Upload plugin button, a real Gmail connector, filling a live form through Claude in Chrome, a desktop scheduled task, and a real Pro account's usage limits. Those need a person's own account; the skills fall back to pasting and copying when a tool is missing.
 
 ## Install from the command line (for people who use a terminal)
 
