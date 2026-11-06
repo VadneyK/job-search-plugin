@@ -1,0 +1,17 @@
+Install test, 2026-11-06 08:36, clean CLAUDE_CONFIG_DIR, marketplace from GitHub (private repo, owner git credentials)
+✔ Successfully added marketplace: job-search-plugin (declared in user settings)
+Installing plugin "job-search@job-search-plugin"...✔ Successfully installed plugin: job-search@job-search-plugin (scope: user)
+    Version: 0.1.0
+    Scope: user
+    Status: ✔ enabled
+
+Skills:
+apply
+fit-check
+recruiter-reply
+scam-check
+setup
+start
+sweep
+tailor
+weekly-review

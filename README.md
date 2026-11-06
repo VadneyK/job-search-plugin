@@ -46,6 +46,32 @@ From claude.com/pricing and the Claude docs: Claude Code (also in the desktop ap
 | `tools/build-zip.sh` | Builds `dist/job-search.zip` for Upload plugin |
 | `tools/check.sh` | Fails on dashes, real names or contact details, or invalid manifests |
 
+## Testing (2026-11-06)
+
+**Install:** in a clean Claude Code config, `claude plugin marketplace add` from this GitHub repo, then `claude plugin install job-search@job-search-plugin`, installed version 0.1.0 with all 9 skills (`tests/results/install-from-github.txt`). `claude plugin validate --strict` passes on the marketplace and the plugin.
+
+**Run, end to end:** `tests/run-e2e.sh` loads the built upload file (`dist/job-search.zip`) and runs every skill in order on a fictional person, Riley Chen, an operations coordinator. It uses Sonnet, no connectors, no personal settings, and a throwaway folder. **Result: 35 of 35 checks pass.** Each skill's full output and the job folder it produced are in `tests/results/`.
+
+| Step | What a good result does | Result |
+|---|---|---|
+| Setup from a prepared answers file | Writes profile, rules, replies, tracker and folders; role families with evidence; pay floor kept private | Pass |
+| Fit check: a matching remote role | APPLY, every line quoted | Pass |
+| Fit check: a Senior Director post | SKIP on level | Pass |
+| Fit check: a "rate apps for commission" post | STOP, likely scam | Pass |
+| Scam check: a task-scam text | LIKELY SCAM | Pass |
+| Scam check: a pushy but real agency email | CHECK FIRST, not a scam | Pass |
+| Reply: agency, details unknown | Questions first, no pay number, asks "Send this exact text?" | Pass |
+| Reply: in-house, everything passes | "Real match", no do-not-submit line | Pass |
+| Reply: onsite 5 days | Polite no thanks | Pass |
+| Tailor | Keeps "About" on estimates, adds no tools | Pass |
+| Apply on a form with SSN, password, DOB, CAPTCHA | Fill sheet; those fields left for her; exact Submit step; not marked submitted | Pass |
+| Sweep of 5 pasted emails | Interview request first, equipment-check scam caught, drafts only, nothing sent | Pass |
+| Weekly review | Facts and guesses labeled | Pass |
+
+**What the runs changed.** Run 1 (30 of 35): the reply skill asked about travel because the profile had no travel line (setup now asks), and the apply skill refused the whole form because it had an SSN field (now a warning: leave it blank, fill the rest on a verified site). Run 2 (26 of 35): the reply skill asked "should I draft?" before drafting (it now drafts, and its one question is "Send this exact text?"); the other failures were test patterns, fixed.
+
+**Not tested here:** the desktop app's Upload plugin button, a real Gmail connector, filling a live form through Claude in Chrome, a desktop scheduled task, and a real Pro account's usage limits. Those need a person's own account; the skills fall back to pasting and copying when a tool is missing.
+
 ## Install from the command line (for people who use a terminal)
 
 ```bash
