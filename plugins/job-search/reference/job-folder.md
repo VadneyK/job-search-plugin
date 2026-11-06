@@ -26,4 +26,6 @@ Read `profile.md` and `rules.md` before doing anything else. If `rules.md` confl
 
 Every skill that changes `tracker.md` ends by rebuilding the Needs you board as `needs-you.md` says.
 
+Change files in the job folder with the file edit and write tools, not shell commands (shell commands may need her approval and stall a run).
+
 Dates in file names are `YYYY-MM-DD`. Tracker ids are lowercase `company-role`, for example `northwind-ops-coordinator`.

@@ -61,11 +61,21 @@ Three kinds of runs. Every step records time, turns and tokens (`claude -p --out
 - A real post whose form makes applicants agree to an AI policy: flagged, not APPLY.
 - Fixed after the run: a careers page that shows the post inside an embedded frame (the skill now opens the frame's address), the Minutes cell format, and two test-harness problems.
 
+**Live rerun after fixes:** 22 of 25. The embedded-post page now reads; Minutes records; Submit was clicked once only when "she" said yes. The 3 misses were fixed and the hidden-trap case re-checked on its own (now SKIP, AI checks): the fit check now reads hidden page text, the skills edit files with file tools instead of shell commands, and the board screenshot uses headless Chromium (`tests/results/live/needs-you.png`).
+
+**4. A real job seeker, real roles (counts only; the profile and results stay on that person's computer):**
+- Setup from real resume PDFs and a 343-row list of past applications: 109 s. The past list became the duplicate check.
+- 9 real postings run through apply: 7 stopped at the fit check for reasons in that person's own profile (required years, onsite days, California not eligible, on-call, customer-facing), 1 posting had been taken down, 1 passed and was filled in the person's Chrome in 167 s, left open for them to submit.
+- find jobs over 20 company boards: 18 readable, 1,127 roles seen, 10 shortlisted in 169 s, with the reasons the rest dropped.
+- Each full fit check took 57 to 85 s and about $0.25 to $0.50 of API-price-equivalent tokens.
+
 **3. Real data, read only:** the sweep on a real Gmail inbox through a read-only mail tool (send, draft and label tools blocked): 43 messages from 3 days searched and sorted in 47 seconds; nothing sent, drafted or changed. It noticed the mailbox belonged to someone other than the profile and stopped before drafting, which is now a written rule.
 
 **Install:** in a clean Claude Code config with no GitHub login or git credentials, `claude plugin marketplace add VadneyK/job-search-plugin`, then `claude plugin install job-search@job-search-plugin`: version 0.1.0 with all 9 skills (`tests/results/install-from-github.txt`). `claude plugin validate --strict` passes.
 
-**Not tested yet:** the Upload plugin button with a zip (the menu would not open from a background browser tab), filling a real company's live form, a desktop scheduled task, and a real Pro account's usage limits. For scale: the API-price equivalent of one whole application was about $0.30 of tokens; Pro is not billed per token, so this only shows that an application is a small share of a usage window.
+**Upload plugin:** tested on claude.ai (same Customize page as the desktop app): the zip uploaded, showed "Job search is installed and ready to use" (0.2.0, 9 skills), synced into Claude Code as `job-search@synced`, and its scam check ran from there.
+
+**Not tested yet:** a desktop scheduled task, and a real Pro account's usage limits. For scale: the API-price equivalent of one whole application was about $0.30 of tokens; Pro is not billed per token, so this only shows that an application is a small share of a usage window.
 
 ## Install from the command line (for people who use a terminal)
 

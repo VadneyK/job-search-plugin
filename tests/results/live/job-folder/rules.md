@@ -14,8 +14,6 @@ Add a line whenever you tell Claude "from now on...". Newest at the bottom, with
 - My pay floor is never said to anyone.
 
 ## My own rules
-- (2026-11-06) No commission-only pay.
-- (2026-11-06) No weekend shifts every week.
-- (2026-11-06) No sales roles or sales quotas.
-- (2026-11-06) Hybrid only up to 2 days a week, within 25 miles of Riverton, OR. No relocation.
-- (2026-11-06) Take-homes up to 3 hours are fine.
+- (example) No roles that need more than 2 days a week in the office.
+- 2026-11-06: No commission-only pay, no weekly weekend shifts, no sales quotas.
+- 2026-11-06: Hybrid only within 25 miles of Riverton, OR, up to 2 days a week. No relocation.

@@ -1,23 +1,26 @@
-{"field": "first_name", "value": "Riley", "page": "northwind", "path": "/log", "t": 1793988797.4038022}
-{"field": "last_name", "value": "Chen", "page": "northwind", "path": "/log", "t": 1793988798.0513542}
-{"field": "email", "value": "riley.chen@example.com", "page": "northwind", "path": "/log", "t": 1793988798.91112}
-{"field": "phone", "value": "555-0142", "page": "northwind", "path": "/log", "t": 1793988799.773022}
-{"field": "location", "value": "Riverton, OR", "page": "northwind", "path": "/log", "t": 1793988800.4868538}
-{"field": "linkedin", "value": "https://linkedin.com/in/example-riley", "page": "northwind", "path": "/log", "t": 1793988801.189711}
-{"field": "authorized", "value": "Yes", "page": "northwind", "path": "/log", "t": 1793988801.9734}
-{"field": "sponsorship", "value": "No", "page": "northwind", "path": "/log", "t": 1793988802.916184}
-{"field": "salary", "value": "$70,000", "page": "northwind", "path": "/log", "t": 1793988803.626096}
-{"field": "why", "value": "Northwind's role pairs scheduling and supply coordination across a clinic network, which is the work I do now as Operations Coordinator at Harborview Community Clinic. I schedule 14 providers across 2 sites and cut double-bookings from about 30 a month to about 5 (my estimate, from the monthly report). I also built a shared supply tracker in Google Sheets used by 3 departments, so restock requests now take about 1 day instead of about 3. I would like to bring that to your 6 clinics.", "page": "northwind", "path": "/log", "t": 1793988804.334142}
-{"field": "start_date", "value": "About 2 weeks after an offer", "page": "northwind", "path": "/log", "t": 1793988805.197206}
-{"field": "resume", "value": "Riley Chen Resume.pdf", "page": "northwind", "path": "/log", "t": 1793988806.065888}
-{"field": "first_name", "value": "Riley", "page": "northwind", "path": "/log", "t": 1793988938.005555}
-{"field": "last_name", "value": "Chen", "page": "northwind", "path": "/log", "t": 1793988938.806102}
-{"field": "email", "value": "riley.chen@example.com", "page": "northwind", "path": "/log", "t": 1793988939.537698}
-{"field": "phone", "value": "555-0142", "page": "northwind", "path": "/log", "t": 1793988940.370938}
-{"field": "location", "value": "Riverton, OR", "page": "northwind", "path": "/log", "t": 1793988941.072521}
-{"field": "linkedin", "value": "https://linkedin.com/in/example-riley", "page": "northwind", "path": "/log", "t": 1793988941.860249}
-{"field": "authorized", "value": "Yes", "page": "northwind", "path": "/log", "t": 1793988942.5682921}
-{"field": "sponsorship", "value": "No", "page": "northwind", "path": "/log", "t": 1793988943.429733}
-{"field": "salary", "value": "$70,000", "page": "northwind", "path": "/log", "t": 1793988944.144962}
-{"field": "why", "value": "Northwind's role pairs scheduling and supply coordination across a clinic network, which is the work I do now as Operations Coordinator at Harborview Community Clinic. I schedule 14 providers across 2 sites and cut double-bookings from about 30 a month to about 5 (my estimate, from the monthly report). I also built a shared supply tracker in Google Sheets used by 3 departments, so restock requests now take about 1 day instead of about 3. I would like to bring that to your 6 clinics.", "page": "northwind", "path": "/log", "t": 1793988944.999066}
-{"field": "start_date", "value": "About 2 weeks after an offer", "page": "northwind", "path": "/log", "t": 1793988945.727486}
+{"field": "first_name", "value": "Riley", "page": "northwind", "path": "/log", "t": 1793990687.2095711}
+{"field": "last_name", "value": "Chen", "page": "northwind", "path": "/log", "t": 1793990687.760663}
+{"field": "email", "value": "riley.chen@example.com", "page": "northwind", "path": "/log", "t": 1793990688.364151}
+{"field": "phone", "value": "555-0142", "page": "northwind", "path": "/log", "t": 1793990688.931421}
+{"field": "location", "value": "Riverton, OR", "page": "northwind", "path": "/log", "t": 1793990689.5043871}
+{"field": "linkedin", "value": "linkedin.com/in/example-riley", "page": "northwind", "path": "/log", "t": 1793990690.069181}
+{"field": "authorized", "value": "Yes", "page": "northwind", "path": "/log", "t": 1793990690.657399}
+{"field": "sponsorship", "value": "No", "page": "northwind", "path": "/log", "t": 1793990691.2270222}
+{"field": "salary", "value": "$70,000", "page": "northwind", "path": "/log", "t": 1793990691.796272}
+{"field": "why", "value": "I'm interested in Northwind because the role matches the work I do now as Operations Coordinator at Harborview Community Clinic: I schedule 14 providers across 2 sites and built a shared supply tracker, used by 3 departments, that cut restock requests from 3 days to 1. I would like to bring that to a network of 6 clinics. I also have basic QuickBooks and conversational Spanish.\n\nThanks,\nRiley", "page": "northwind", "path": "/log", "t": 1793990692.376854}
+{"field": "start_date", "value": "Two weeks after an offer", "page": "northwind", "path": "/log", "t": 1793990692.956744}
+{"field": "resume", "value": "Riley Chen Resume.pdf", "page": "northwind", "path": "/log", "t": 1793990693.589966}
+{"field": "first_name", "value": "Riley", "page": "northwind", "path": "/log", "t": 1793990801.500042}
+{"field": "last_name", "value": "Chen", "page": "northwind", "path": "/log", "t": 1793990802.12922}
+{"field": "email", "value": "riley.chen@example.com", "page": "northwind", "path": "/log", "t": 1793990802.747498}
+{"field": "phone", "value": "555-0142", "page": "northwind", "path": "/log", "t": 1793990803.369823}
+{"field": "location", "value": "Riverton, OR", "page": "northwind", "path": "/log", "t": 1793990804.035574}
+{"field": "linkedin", "value": "linkedin.com/in/example-riley", "page": "northwind", "path": "/log", "t": 1793990804.645396}
+{"field": "authorized", "value": "Yes", "page": "northwind", "path": "/log", "t": 1793990805.278921}
+{"field": "sponsorship", "value": "No", "page": "northwind", "path": "/log", "t": 1793990805.908694}
+{"field": "salary", "value": "$70,000", "page": "northwind", "path": "/log", "t": 1793990806.5062761}
+{"field": "why", "value": "I'm interested in Northwind because the role matches the work I do now as Operations Coordinator at Harborview Community Clinic: I schedule 14 providers across 2 sites and built a shared supply tracker, used by 3 departments, that cut restock requests from 3 days to 1. I would like to bring that to a network of 6 clinics. I also have basic QuickBooks and conversational Spanish.\n\nThanks,\nRiley", "page": "northwind", "path": "/log", "t": 1793990807.177716}
+{"field": "start_date", "value": "Two weeks after an offer", "page": "northwind", "path": "/log", "t": 1793990807.802971}
+{"field": "resume", "value": "Riley Chen Resume.pdf", "page": "northwind", "path": "/log", "t": 1793990808.573329}
+{"field": "linkedin", "value": "https://linkedin.com/in/example-riley", "page": "northwind", "path": "/log", "t": 1793990840.525119}
+{"field": "SUBMIT", "value": true, "page": "northwind", "path": "/submit", "t": 1793990846.567601}

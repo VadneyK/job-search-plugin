@@ -4,6 +4,8 @@
 # Records time, turns and tokens per step, every field typed, and every Submit click.
 # Usage: tests/live/run-live.sh [plugin dir or zip] [model]
 # Needs: Chrome open with the Claude in Chrome extension signed in, and Claude Code signed in.
+# On a Mac with a browser guard hook, a person must allow the browser for the run first; this script
+# loads only project settings so personal instructions stay out of the fictional test.
 set -u
 ROOT="$(cd "$(dirname "$0")/../.." && pwd)"
 PLUGIN="${1:-$ROOT/plugins/job-search}"
@@ -95,7 +97,8 @@ check "submit: code never typed by Claude" bash -c "! jq -r 'select(.field==\"se
 
 # 10. The board page renders
 check "board: data file is valid" node -e "global.window={}; require('fs'); eval(require('fs').readFileSync(process.argv[1],'utf8')); if(!window.BOARD||!Array.isArray(window.BOARD.items)||!window.BOARD.items.length) process.exit(1)" "$JOB/board-data.js"
-CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+CHROME="${HEADLESS_CHROME:-$(find ~/Library/Caches/ms-playwright -name chrome-headless-shell -type f 2>/dev/null | head -1)}"
+[ -x "$CHROME" ] || CHROME="/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 BOARDURL=$(python3 -c 'import pathlib,sys; print(pathlib.Path(sys.argv[1]).as_uri())' "$JOB/needs-you.html")
 "$CHROME" --headless=new --user-data-dir="$WORK/chrome-shot" --disable-gpu --hide-scrollbars --window-size=760,1400 --screenshot="$OUT/needs-you.png" "$BOARDURL" >/dev/null 2>&1
 check "board: screenshot taken" test -s "$OUT/needs-you.png"

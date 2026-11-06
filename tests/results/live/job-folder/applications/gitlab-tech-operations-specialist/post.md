@@ -1,26 +1,14 @@
 # GitLab, Tech Operations Specialist
 
 Link: https://job-boards.greenhouse.io/gitlab/jobs/8638246002
-Read: 2026-11-06 (read only; nothing clicked or filled)
+Read 2026-11-06 (summary of the public Greenhouse post; wording quoted where marked).
 
-Remote, United States. Salary: $95,200 - $160,800 USD. Reports to the Vice President, Enablement & AI (CRO organization).
-
-## Overview
-"The Tech Operations Specialist keeps the field organization's AI tooling running smoothly day to day. You will maintain a clear inventory of AI tools in use across the field, manage an index of use cases and field needs, track adoption and utilization, manage access requests, and keep the underlying data feeding these tools clean and well-organized."
-
-## What You'll Do
-- Tool Inventory & Consolidation: maintain an inventory of AI tools used across the field org, identify overlap, support consolidation.
-- Tool Adoption & Use Case Index: formalize a library of field-adopted and -requested use cases.
-- Utilization & Tracking: monitor usage, build simple reporting, flag underused tools.
-- Comms & Enablement: draft internal announcements, create micro-enablement programs.
-- Tool Access Requests/Management: own intake and processing of access requests for AI tools.
-- AI Data Management: keep gDrive/datasets accurate and maintained.
-
-## What You'll Bring
-- "Early-Mid Level Experience: Some experience in enablement, sales/business operations, IT operations, or a similar coordination-heavy function"
-- Organized and detail-oriented; interest in AI tooling; process-minded; collaborative; "Basic comfort working with spreadsheets, dashboards, or simple data tools"; ability to work all-remote and asynchronous.
-
-## Other lines
-- "we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows"
-- "Sales roles are also eligible for incentive pay targeted at up to 100% of the offered base salary." (general boilerplate; this post is not a sales role)
-- Form asks: sponsorship, prior employment agreements/restrictions, previously worked at GitLab, country of residence, voluntary self-ID. Resume required, cover letter optional.
+- Location: "Remote, United States". "All of our roles are remote, however some roles may carry specific location-based eligibility requirements."
+- Pay: "$95,200 - $160,800 USD" base, "for residents of the United States only."
+- Team: Enablement & AI, CRO organization; reports to the VP, Enablement & AI.
+- Level: "Early-Mid Level Experience". No years stated.
+- Requirements: "Some experience in enablement, sales/business operations, IT operations, or a similar coordination-heavy function"; attention to detail; curiosity about AI tools; follow and improve structured processes; basic spreadsheet and dashboard skills; async remote work.
+- Duties: AI tool inventory and consolidation; use case index; usage tracking and simple reporting; rollout announcements and micro-enablement; AI tool access requests; keeping AI-related data (Google Drive, datasets) accurate.
+- Expectation: "all team members expected to incorporate AI into their daily workflows"
+- Form: name, email, resume (required); phone, cover letter, LinkedIn (optional); employment-agreement/restrictions question; visa sponsorship question; worked at GitLab before; country of residence; voluntary self-ID. No AI-use question, no certify box, no AI detection, no ID verification.
+- Interview steps: not stated.

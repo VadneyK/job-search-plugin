@@ -1,7 +1,19 @@
-I can't give a verdict yet. The page loaded, but the job description didn't.
+**SKIP: Instacart, Lifecycle Marketing Coordinator, CRM.** It requires CRM campaign experience you don't have, and the work is outside your role families.
 
-The Instacart page shows the title, "Lifecycle Marketing Coordinator, CRM", plus its boilerplate. The body sits in an embedded application frame that the page reader can't see. I got the same result on the Greenhouse address. My direct fetch of Greenhouse's job data was declined, so I couldn't read it that way either. I haven't scored anything from the title alone. The scam check also needs the post's text, and so does every row of the fit test: level, pay, location, process, eligibility and the AI-checks line.
+Scam check: LOOKS REAL. It's posted on instacart.careers and Greenhouse, with no money, chat, crypto or pressure signs.
 
-I haven't saved a folder or tracker row for this one, because there's no verdict to record.
+| Check | Result | Line it is based on |
+|---|---|---|
+| Role family | Fail | "builds, QA-tests, and launches campaigns" across email, push, SMS and in-app. None of your 5 families covers marketing CRM. |
+| Level | Fail | "Typically 1 to 3 years of hands-on CRM execution... in an email service provider or marketing automation platform." Your profile lists no CRM or email-platform work. |
+| Pay | Pass | "OR ... $95,000 to $100,000", against your $58,000 floor |
+| Location | Pass | "United States, Remote" |
+| Process | Unknown | The post doesn't describe the hiring process. |
+| Eligibility | Not stated | Nothing beyond US remote. |
+| AI checks | Pass | None found. There is only a Greenhouse AI-screening notice, which is not a skip. |
 
-Could you open the link, copy the whole job description (responsibilities, requirements, pay range, location, and any AI or application notes), and paste it here? I'll run the full fit check as soon as I have it.
+I read the page and Greenhouse's job data. The page itself showed only the title and boilerplate, and I got the details from Greenhouse as a summary, not word for word. The 1-to-3-years line is quoted from that summary. "Typically" softens it a little, but it is stated as the minimum, and Braze is only preferred.
+
+**Chances:** Low. You have no email-platform or campaign-building evidence. The pay and remote work are good, but this is a different career track.
+
+I saved the post and fit check in `applications/instacart-lifecycle-marketing-coordinator-crm/` and added a SKIP row to `tracker.md`. The Needs you board is rebuilt and has nothing waiting on you.

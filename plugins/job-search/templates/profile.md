@@ -85,6 +85,7 @@ Only these facts may go in resume lines, notes, replies and forms. One line each
 - Link recruiters can use to book a short call, only after a role passes the fit check:
 
 ## Where my job search happens
+- Companies to watch (for find jobs; names or careers links):
 - Email inbox for job mail (for example Gmail):
 - Job sites I use and am signed in to (for example LinkedIn, Indeed, Handshake, a company careers site):
 - Sweep how many days back (default 2; first run 14):

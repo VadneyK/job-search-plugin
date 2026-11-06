@@ -1,15 +1,10 @@
-# Anthropic, APAC Recruiting Coordinator
+# Anthropic, APAC Recruiting Coordinator (Singapore)
 Link: https://job-boards.greenhouse.io/anthropic/jobs/5427309008
-Read 2026-11-06 (read only).
+Read 2026-11-06 (summary of the public post, not verbatim)
 
-Key lines from the post:
-- Location: "Singapore"
-- "As our first Recruiting Coordinator based in Singapore, you'll deliver a warm, high touch interview experience for candidates across APAC"
-- "Schedule a high volume of APAC interview loops, from hiring manager screens through onsites, debriefs and reference calls, across multiple time zones"
-- "4+ years of experience in recruiting coordination or high volume scheduling, ideally supporting multiple APAC markets." (under "You may be a good fit if you have")
-- "Hands-on experience with an applicant tracking system (e.g., Greenhouse) and a scheduling tool (e.g., ModernLoop, GoodTime)."
-- "Currently, we expect all staff to be in one of our offices at least 25% of the time."
-- "Use AI tools as a core part of your daily workflow."
-- Form: "AI Policy for Application*" (select Yes to confirm understanding of the AI partnership guidelines)
-- Form: "Are you open to relocation for this role? *"; "Please read the arbitration agreement below*"
-- No pay range given.
+- First recruiting coordinator in Singapore; covers Japan, Korea, India, Australia, New Zealand, Southeast Asia.
+- Schedule high volumes of APAC interview loops; logistics contact for candidates and interviewers; keep Greenhouse job setup and scheduling tools accurate; follow-the-sun coverage; support regional hiring operations; document processes.
+- Qualifications: 4+ years in recruiting coordination or high-volume scheduling, ideally across multiple APAC markets; ATS (e.g. Greenhouse) and scheduling tool (e.g. ModernLoop, GoodTime) experience; business-level or native English; Japanese, Korean or Mandarin a plus.
+- Pay: none listed.
+- Location: Singapore; in an office at least 25% of the time. Visa sponsorship available for some roles and candidates, not guaranteed.
+- Form: "Why Anthropic?" answer (200-400 words), AI policy confirmation (select Yes), agreement to arbitrate dropdown, optional self-ID.

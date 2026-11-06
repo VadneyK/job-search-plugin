@@ -1,29 +1,27 @@
-**YOUR CALL:** the pay and level fit, but the work is AI-tool operations in GitLab's sales organization, and your experience is clinic operations.
+**APPLY.** GitLab's Tech Operations Specialist is remote in the US, pays $95,200 to $160,800, is early-to-mid level, and matches your operations coordination work.
 
-```
-Fit check: GitLab, Tech Operations Specialist
-Scam check: LOOKS REAL: posted on GitLab's own Greenhouse board, no scam signs
-Role family: 1, Operations coordination (Strong), but only as a stretch
-```
+I found no earlier GitLab application in your tracker. I read the post as a summary of the public page, so the quotes below come from that summary.
 
 | Check | Result | Line it is based on |
 |---|---|---|
-| Role family | Pass (stretch) | "Some experience in enablement, sales/business operations, IT operations, or a similar coordination-heavy function" |
-| Level | Pass | "Early-Mid Level Experience" (no required years stated) |
-| Pay | Pass | "$95,200 - $160,800 USD" (the top is well above your $58k floor) |
+| Scam check | Looks real | On GitLab's own Greenhouse board; no fees, crypto, chat-only contact or pressure |
+| Role family | Pass (1, Operations coordination, Strong) | "Some experience in enablement, sales/business operations, IT operations, or a similar coordination-heavy function" |
+| Level | Pass | "Early-Mid Level Experience"; no years required |
+| Pay | Pass | "$95,200 - $160,800 USD"; the top is well above your $58,000 floor |
 | Location | Pass | "Remote, United States" |
-| Process | Unknown | No interview steps or take-home stated |
-| Eligibility | Pass | The form asks about visa sponsorship. You need none. |
-| AI checks | Pass | None found. GitLab expects AI use: "all team members expected to incorporate AI into their daily workflows" |
+| Process | Unknown | Interview steps and any take-home are not stated |
+| Eligibility | Not stated | The form asks about visa sponsorship; you need none |
+| AI checks | Pass (none found) | No AI question, certify box or detection on the form |
 
-- **The trade:** the job is keeping an inventory of AI tools, processing access requests, tracking usage and keeping data tidy. Your closest proof is the supply tracker used by 3 departments.
-- **Sales:** the role reports into GitLab's sales (CRO) organization. It supports sales and isn't selling, so I didn't count it as a Fail. You said no sales work, so it's your call.
-- **Chances:** fair at best. A GitLab posting will draw people with real IT-ops or enablement backgrounds. One small, honest example of an AI tool you've used would raise your chances most.
+- **Location caveat:** "some roles may carry specific location-based eligibility requirements."
+- **AI expectation:** The post says "all team members expected to incorporate AI into their daily workflows." That is a general statement about AI skills, not a screen on your application.
 - **Questions for the first call:**
-  - What are the interview steps, and is there a take-home? Your limit is 3 hours.
-  - How much of the day is spreadsheets and access requests, and how much is technical or AI work?
-  - Does the role touch quotas or sales work?
+  - What are the interview steps, and is there a take-home? Your limit is 3 hours, with AI tools allowed.
+  - Does Oregon have any location-based limit?
+  - Which AI tools does the field org use today?
+- **Chances:** Decent but not certain. A $95k+ remote role will draw many applicants, and you have no AI-tooling or dashboard evidence yet. A measured example from your supply tracker would raise your chances most.
+  - **Open item:** Your profile still asks where "1 day instead of 3" for restock requests comes from, and whether it was measured.
 
-I read the page only. I clicked and filled nothing. I saved the post and this check in `applications/gitlab-tech-operations-specialist/`. I added the row to `tracker.md` as "fit checked", with the start time (10:07) in the Minutes column. The Needs you board now lists a `decide` item. Open `needs-you.html` in your Job Search folder to see it.
+I saved the post, the fit check and a new tracker row for GitLab. I started a Minutes entry of `start 10:38`. The Needs you board has no items yet because the next step is mine, not yours. When you're ready to open it, it's `needs-you.html` in your Job Search folder.
 
-**Go for it, or skip?** If you go for it, type `tailor` and I'll write resume lines and a short note for this one.
+Next: type **tailor** to write resume lines and a short note for this one.

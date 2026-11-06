@@ -1,17 +1,17 @@
-Fit check: Anthropic, APAC Recruiting Coordinator
-Scam check: LOOKS REAL: posted on Anthropic's Greenhouse board; "Anthropic recruiters only contact you from @anthropic.com email addresses"; no money, crypto, chat-only or pressure signs.
-Role family: 2, Scheduling coordination (Strong); the recruiting-coordination domain itself is new to her
+Fit check: Anthropic, APAC Recruiting Coordinator (Singapore)
+Scam check: LOOKS REAL: official Greenhouse board for Anthropic; no money, chat-only interview or pressure signs.
+Role family: 2, Scheduling and clinic or patient coordination (Strong) is the nearest; this is recruiting scheduling, a stretch.
 
 | Check | Result | Line it is based on |
 |---|---|---|
-| Role family | Pass (stretch on domain) | "Schedule a high volume of APAC interview loops... across multiple time zones" |
-| Level | Pass | "4+ years of experience in recruiting coordination or high volume scheduling" sits under "You may be a good fit if", so it is not a hard requirement. She has about 3.5 years of scheduling. |
-| Pay | Unknown | No range given |
-| Location | Fail | "Singapore" / "first Recruiting Coordinator based in Singapore"; her profile: relocate = No; hybrid only within 25 miles of Riverton, OR |
-| Process | Unknown | No interview steps stated |
-| Eligibility | Not stated | "We do sponsor visas!" The post does not say whether Singapore work rights are required; she is authorized for the US only. |
-| AI checks | Needs her read (sign 6) | "AI Policy for Application*" required select on the form; "Guidance on Candidates' AI Usage". Policy not read. The post also says "Use AI tools as a core part of your daily workflow", which is not a ban. |
+| Role family | Pass (stretch) | "Schedule high volumes of APAC interview loops" vs her "Schedule 14 providers across 2 sites" |
+| Level | Fail | "4+ years in recruiting coordination or high-volume scheduling" vs about 3 years 8 months of scheduling and no recruiting coordination |
+| Pay | Unknown | No range listed |
+| Location | Fail | "Singapore", in office at least 25% of the time; profile: "Willing to relocate: No" and rules.md "No relocation" |
+| Process | Unknown | Not stated beyond the form; essay of 200-400 words |
+| Eligibility | not stated | Visa sponsorship "available for some roles... not guaranteed"; no Singapore work authorization on her profile |
+| AI checks | Flag (sign 6) | Candidate AI policy to confirm by selecting "Yes"; she must read and agree herself |
 
-Verdict: SKIP: the job is based in Singapore and she does not relocate (rules.md: "No relocation").
-Questions for the first call: none, skipped.
-Chances: Low. She is not located in Singapore and has no recruiting-coordination or ATS history on her resume; the scheduling skills match, but the location rules it out.
+Verdict: SKIP: Location. She will not relocate, and the job is in Singapore (level is also short of 4+ years).
+Questions for the first call: none (not pursuing)
+Chances: Low: relocation alone rules it out, and she is under the 4+ years with no recruiting coordination or ATS experience on her resume.

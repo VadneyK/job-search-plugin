@@ -1,13 +1,9 @@
-I haven't submitted the Northwind application. The tab had reloaded to an empty form, so your parts weren't there, and I can't fill three of the missing pieces.
+I clicked **Submit application** on the Northwind form, but the application isn't finished. The page is now asking for an 8-character security code, so it's waiting on you.
 
-I refilled these from `applied.md` and `tailored.md`: first and last name, email, phone, city, LinkedIn, work authorization (Yes), sponsorship (No), salary ($70,000), the "why Northwind" note, and start date.
+- **Your parts:** They were all there when I opened the page. "How did you hear" was Company website, all three self-ID questions were declined, and the "I'm not a robot" box was ticked.
+- **My parts:** I filled everything from your profile and attached the resume. That covered name, email, phone, Riverton, OR, work authorization yes, sponsorship no, salary $70,000, the short note from `tailored.md`, and a start date of two weeks after an offer.
+- **First click:** It was blocked because the LinkedIn field needs a full URL. I changed it to `https://linkedin.com/in/example-riley`, the same link with only `https://` added, and submitted again.
+- **Security code:** The code was sent to riley.chen@example.com and expires 10 minutes after submit. I can't read your email or type the code. Enter it in the "Check your email" box on the open Chrome tab "Operations Coordinator at Northwind Health Partners" and click the Submit under it.
+- **Tracker not updated:** My command to update `tracker.md` and `applied.md` was blocked pending approval, so both still say "filled (waiting on you)". I haven't rebuilt the Needs you board either.
 
-These are still empty:
-- **Robot checkbox:** I can't tick the CAPTCHA stand-in. That one has to be you.
-- **"How did you hear about this job?":** there's no answer on file.
-- **Gender, Veteran Status, Disability Status:** these are your self-ID answers, so I'm not guessing them.
-- **Resume/CV upload:** I haven't attached "Riley Chen Resume.pdf" yet. I'd need you to confirm the file's location, because the required field is empty.
-
-After the form is submitted, the page also asks for an 8-character security code emailed to the address on the application. You'd have to type that yourself within its time limit.
-
-What should I use for how you heard about the job, and for the three self-ID fields (including "Decline" options)? Where is the resume PDF? Once the form is complete and you've ticked the robot box, I'll click Submit application and stop at the code prompt.
+I left the tab open for you to enter the code. Do you want me to retry the tracker update?

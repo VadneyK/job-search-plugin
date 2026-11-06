@@ -42,6 +42,7 @@ Block 3, private details (say first: "These stay on your computer and are never 
 > 4. The email and phone number you want on applications, and your city.
 > 5. How you sign your emails, and a link to book a call if you have one (optional).
 > 6. Which email you use for job mail, and which job sites you're signed in to (for example LinkedIn, Indeed, a company's careers page).
+> 7. A few companies you'd love to work for (5 to 20). I'll watch their job boards for you.
 
 ## 2b. Bring in where she already applied
 

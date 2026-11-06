@@ -14,7 +14,7 @@ No calendar link. No pay number. Ask only what is unknown, at most 3 questions.
 ```
 Hi <their first name>,
 
-Thanks for reaching out. I'm open to full-time or contract work (30 or more hours a week) right now, and this could be a fit.
+Thanks for reaching out. I'm open to full-time or contract (30+ hours a week) work right now, and this could be a fit.
 
 <A few questions | One question> before we set up a call:
 1. What is the pay range, or the hourly budget if it's a contract?
@@ -42,7 +42,7 @@ Hi <their first name>,
 
 Thanks for the details. This sounds like a real match: <one reason, using only their facts>.
 
-I'd be glad to talk. What times work for you this week?
+I'd be glad to talk. <You can pick a time here: my calendar link | What times work for you this week?>
 
 My resume is attached. Please don't submit my profile anywhere until we've talked.
 
@@ -52,7 +52,6 @@ Riley
 
 - The reason uses only facts from their message or the post.
 - In-house recruiter (works at the company itself): delete "Please don't submit my profile anywhere until we've talked."
-- Riley has no calendar link yet. If one is added to profile.md, replace "What times work for you this week?" with "You can pick a time here: <link>".
 
 ---
 
@@ -71,7 +70,7 @@ Riley
 
 Reason lines (pick the first failing check; never state a number):
 - Pay below my floor: `the range is below where I need to be`
-- Onsite or relocation: `I'm looking for remote, or hybrid near Riverton, OR`
+- Onsite or relocation: `I'm looking for remote, or hybrid within 25 miles of Riverton, OR`
 - Level too senior: `it asks for more experience than I have`
 - Level too junior: `it's set up for an earlier career stage than mine`
 - Process: `the interview process doesn't fit what I can do right now`
