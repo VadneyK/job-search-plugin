@@ -2,6 +2,8 @@
 
 For anyone with a Claude Pro (or Max) account. No terminal, no code. About 20 minutes the first time.
 
+Written and checked on a Mac. The Windows steps follow the same app but have not been tried yet.
+
 You will:
 1. Get the Claude desktop app.
 2. Add the plugin.
@@ -77,7 +79,7 @@ You will get the plugin in one of two ways. Use the one that matches what you we
 6. When Claude asks to create or edit files in your Job Search folder, click **Allow**. (To stop being asked every time, choose **Accept edits** in the mode menu next to the message box.)
 7. At the end it shows your top job types and a menu.
 
-You can also use the plugin in **Cowork** or a normal chat. The Code tab is the best place for it because it can keep your files in the Job Search folder.
+You can also use the plugin in **Cowork** if you pick the Job Search folder there. The Code tab is the best place for it because it keeps your files in that folder. A normal chat cannot save your files, so setup will not work there.
 
 ## Step 5 (optional, recommended). Connect your tools
 
@@ -88,9 +90,11 @@ You can also use the plugin in **Cowork** or a normal chat. The Code tab is the 
 
 **Chrome, so it can fill forms and read job sites:**
 1. In Google Chrome, go to the **Chrome Web Store** and search **Claude in Chrome**.
-2. Click **Add to Chrome**, then sign in with your Claude account.
+2. Click **Add to Chrome**, then sign in with the same Claude account you use in the app.
 3. Keep Chrome open while you use the helper. Sign in to your job sites (LinkedIn, Indeed and so on) in Chrome yourself.
-4. Without Chrome, the helper gives you a list of answers to copy into the form yourself.
+4. The first time the helper needs the browser, Claude may show **Claude wants to use your browser**. Choose **Install extension** (if asked) and then **Continue with browser tools**.
+5. If it still says Chrome is not connected, type `/chrome` in the message box, choose **Reconnect extension**, and turn on **Enabled by default**.
+6. Without Chrome, the helper gives you a list of answers to copy into the form yourself.
 
 **Morning check and Friday review:**
 Setup offers to turn these on for you. If you want to do it by hand:
