@@ -39,20 +39,19 @@ Your profile, your pay floor and your job list stay in a folder on your own comp
 
 ## Step 2. Add the plugin
 
-You will get the plugin in one of two ways. Use the one that matches what you were sent.
-
-**If you were sent a file called `job-search.zip`:**
-1. Save the file somewhere you can find it, like **Downloads**. Do not unzip it.
-2. In the Claude app, click **Customize** (in the left sidebar), then **Plugins**.
-3. Click **Add**, then **Upload plugin**.
-4. Choose `job-search.zip`. Wait until **job-search** shows in your list.
-
-**If you were sent a GitHub link or name (like `owner/job-search-plugin`):**
-1. In the Claude app, click **Customize**, then **Plugins**.
+1. In the Claude app, click **Customize** (in the left sidebar), then **Plugins**.
 2. Click **Add**, then **Add marketplace**.
-3. Paste the link or name you were sent, and confirm.
-4. If it asks you to **Connect GitHub** or **Install the Claude GitHub App**, follow its steps and allow access to that one repository.
-5. Find **job-search** in the list and click **Add**.
+3. Type or paste this, then confirm:
+
+   ```
+   VadneyK/job-search-plugin
+   ```
+
+4. Find **job-search** in the list and click **Add**.
+
+You do not need a GitHub account. Updates reach you by themselves.
+
+**If you were sent a file called `job-search.zip` instead:** save it (do not unzip it), then in **Customize > Plugins** click **Add**, then **Upload plugin**, and choose the file.
 
 ## Step 3. Make your Job Search folder
 
@@ -150,5 +149,5 @@ Open the **Code** tab in your **Job Search** folder and type what you want, or t
 
 ## Updating or removing it
 
-- **Update**: in **Customize > Plugins**, open **job-search**. If you added it from GitHub, click **Check for updates**. If you uploaded a zip, upload the new zip the same way.
+- **Update**: updates arrive by themselves. To get one sooner, open **job-search** in **Customize > Plugins** and click **Check for updates**. If you uploaded a zip, upload the new zip the same way.
 - **Remove**: open **job-search** in **Customize > Plugins**, open its menu, and click **Remove**. Your Job Search folder stays on your computer until you delete it yourself.

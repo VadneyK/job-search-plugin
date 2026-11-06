@@ -48,7 +48,7 @@ From claude.com/pricing and the Claude docs: Claude Code (also in the desktop ap
 
 ## Testing (2026-11-06)
 
-**Install:** in a clean Claude Code config, `claude plugin marketplace add` from this GitHub repo, then `claude plugin install job-search@job-search-plugin`, installed version 0.1.0 with all 9 skills (`tests/results/install-from-github.txt`). `claude plugin validate --strict` passes on the marketplace and the plugin.
+**Install:** in a clean Claude Code config with no GitHub login or git credentials, `claude plugin marketplace add VadneyK/job-search-plugin`, then `claude plugin install job-search@job-search-plugin`, installed version 0.1.0 with all 9 skills (`tests/results/install-from-github.txt`). `claude plugin validate --strict` passes on the marketplace and the plugin.
 
 **Run, end to end:** `tests/run-e2e.sh` loads the built upload file (`dist/job-search.zip`) and runs every skill in order on a fictional person, Riley Chen, an operations coordinator. It uses Sonnet, no connectors, no personal settings, and a throwaway folder. **Result: 35 of 35 checks pass.** Each skill's full output and the job folder it produced are in `tests/results/`.
 
@@ -75,11 +75,11 @@ From claude.com/pricing and the Claude docs: Claude Code (also in the desktop ap
 ## Install from the command line (for people who use a terminal)
 
 ```bash
-claude plugin marketplace add <owner>/job-search-plugin
+claude plugin marketplace add VadneyK/job-search-plugin
 claude plugin install job-search@job-search-plugin
 ```
 
-Or inside Claude Code: `/plugin marketplace add <owner>/job-search-plugin`, then `/plugin install job-search@job-search-plugin`.
+Or inside Claude Code: `/plugin marketplace add VadneyK/job-search-plugin`, then `/plugin install job-search@job-search-plugin`.
 
 ## For maintainers
 

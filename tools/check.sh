@@ -14,7 +14,8 @@ hits=$(printf '%s\n' "$FILES" | tr '\n' '\0' | xargs -0 grep -nP '\x{2013}|\x{20
 
 # 2. Denylist: the source system this was generalized from, and anyone it must not name.
 DENY='kentaro|vadney|veru|insomniac|acts2|alameda|calendly\.com/|belden|centigrade|carbonsustain|mercor|coleman|braintrust|a\.team|wellfound|turing\.com|\bdia\b|9444|\bk20\b|\bk5\b|job hub|artifactdata|bibiane|berkeley|\$110|\$90/|187k'
-hits=$(printf '%s\n' "$FILES" | tr '\n' '\0' | xargs -0 grep -niE "$DENY" 2>/dev/null)
+# The repo's own public address is the one allowed use of the owner's handle.
+hits=$(printf '%s\n' "$FILES" | tr '\n' '\0' | xargs -0 grep -niE "$DENY" 2>/dev/null | sed 's#VadneyK/job-search-plugin#<this repo>#g' | grep -iE "$DENY")
 [ -n "$hits" ] && say "denylisted term found:" && echo "$hits"
 
 # 3. Emails outside example domains, and phone numbers outside 555-01xx
